@@ -44,6 +44,7 @@ gulp.task('zhcolor', function () {
             let ojcH = `#import <UIKit/UIKit.h>\n\n@interface UIColor (ZHColor)\n\n`;
             let ojcM = `#import "UIColor+ZHColor.h"\n\n@implementation UIColor (ZHColor)\n\n`;
             let swift = `import UIKit\n\nclass ZHColor {\n`;
+            let md = '# 中国色\n\n<table>';
 
             let py = [];
             for (let _color of colors.entries()) {
@@ -71,17 +72,21 @@ gulp.task('zhcolor', function () {
                     ojcM += `\t+ (UIColor *) ${colorNamePinYin} {\n\treturn [UIColor colorWithRed:${rgb.r} green:${rgb.g} blue:${rgb.b} alpha:1.0];\n}\n`;
                     swift += `\tstatic var ${colorNamePinYin} : UIColor = UIColor(red:${rgb.r}, green:${rgb.g}, blue:${rgb.b}, alpha:1.0);//${colorName}\n`;
                 }
+
+                md += `<tr><td style="background-color:${color};"></td><td>${colorName}</td><td>${colorNamePinYin}</td><td>HEX: ${color}</td><td>RGB: ${rgb.r},${rgb.g},${rgb.b}</td></tr>`;
             }
 
-            fs.writeFileSync(`./zhcolor.scss`, scss, 'utf8');
+            fs.writeFileSync('./zhcolor.scss', scss, 'utf8');
             android += '</resources>';
-            fs.writeFileSync(`./zhcolors.xml`, android, 'utf8');
+            fs.writeFileSync('./zhcolors.xml', android, 'utf8');
             ojcH += '\n@end';
             ojcM += '\n@end';
-            fs.writeFileSync(`./UIColor+ZHColor.h`, ojcH, 'utf8');
-            fs.writeFileSync(`./UIColor+ZHColor.m`, ojcM, 'utf8');
+            fs.writeFileSync('./UIColor+ZHColor.h', ojcH, 'utf8');
+            fs.writeFileSync('./UIColor+ZHColor.m', ojcM, 'utf8');
             swift += '}';
-            fs.writeFileSync(`./ZHColor.swift`, swift, 'utf8');
+            fs.writeFileSync('./ZHColor.swift', swift, 'utf8');
+            md += '</table>';
+            fs.writeFileSync('./README.md', md, 'utf8');
         }
     });
 });
