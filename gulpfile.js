@@ -6,32 +6,59 @@ const request = require('request');
 const pinyin = require('pinyin');
 const _ = require('lodash');
 const fs = require('fs');
+const async = require('async');
+
+gulp.task('default', ['zhcolor']);
 
 gulp.task('zhcolor', function () {
-    genColor('http://color.uisdc.com/', 'zh');
-});
+    //http://caolan.github.io/async/docs.html#.map
+    async.map(['http://ylbook.com/cms/web/chuantongsecai/chuantongsecai.htm', 'http://ylbook.com/cms/web/guohuasecai/guohuasecai.htm'], function (item, callback) {
+        // callback(err, transformed)
+        request(item, function (error, response, body) {
+            if (!error && response.statusCode == 200) {
+                let $ = cheerio.load(body);
 
-gulp.task('jpcolor', function () {
-    genColor('http://color.uisdc.com/jp/', 'jp');
-});
+                let colorMap = new Map();
+                $('#colorList dl').each(function (index, el) {
+                    colorMap.set(_.trim($(this).find('.colorName').text()), _.trim($(this).find('.colorValue span').last().text()));
+                });
+                callback(null, colorMap);
+            } else {
+                callback(error);
+            }
+        });
+    }, function (err, results) {
+        if (err) {
+            console.log(err);
+        } else {
+            let colors = results[0];
 
-function genColor(url, lang) {
-    request(url, function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-            let $ = cheerio.load(body);
+            for (let color of results[1].entries()) {
+                if (!colors.has(color[0])) {
+                    colors.set(color[0], color[1]);
+                }
+            }
 
             let scss = '';
             let android = '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n';
-            let ojcH = `#import <UIKit/UIKit.h>\n\n@interface UIColor (${_.toUpper(lang)}Color)\n\n`;
-            let ojcM = `#import "UIColor+ZHColor.h"\n\n@implementation UIColor (${_.toUpper(lang)}Color)\n\n`;
-            let swift = `import UIKit\n\nclass ${_.toUpper(lang)}Color {\n`;
-            $('li > a').each(function (index, el) {
-                let color = $(this).find('> span').text();
-                let colorName = _.trimEnd(_.trimEnd($(this).text(), color), '色');
+            let ojcH = `#import <UIKit/UIKit.h>\n\n@interface UIColor (ZHColor)\n\n`;
+            let ojcM = `#import "UIColor+ZHColor.h"\n\n@implementation UIColor (ZHColor)\n\n`;
+            let swift = `import UIKit\n\nclass ZHColor {\n`;
+
+            let py = [];
+            for (let _color of colors.entries()) {
+                let color = _color[1];
+                let colorName = _color[0];
                 let colorNamePinYin = pinyin(colorName, {
                     segment: true,
                     style: pinyin.STYLE_NORMAL
                 }).join('');
+
+                if (py.indexOf(colorNamePinYin) > -1) {
+                    colorNamePinYin += '_';
+                }
+
+                py.push(colorNamePinYin);
 
                 color = _.trim(color);
                 scss += `$${colorNamePinYin}:${color};//${colorName}\n`;
@@ -44,22 +71,20 @@ function genColor(url, lang) {
                     ojcM += `\t+ (UIColor *) ${colorNamePinYin} {\n\treturn [UIColor colorWithRed:${rgb.r} green:${rgb.g} blue:${rgb.b} alpha:1.0];\n}\n`;
                     swift += `\tstatic var ${colorNamePinYin} : UIColor = UIColor(red:${rgb.r}, green:${rgb.g}, blue:${rgb.b}, alpha:1.0);//${colorName}\n`;
                 }
-            });
+            }
 
-            fs.writeFileSync(`./${lang}color.scss`, scss, 'utf8');
+            fs.writeFileSync(`./zhcolor.scss`, scss, 'utf8');
             android += '</resources>';
-            fs.writeFileSync(`./${lang}colors.xml`, android, 'utf8');
+            fs.writeFileSync(`./zhcolors.xml`, android, 'utf8');
             ojcH += '\n@end';
             ojcM += '\n@end';
-            fs.writeFileSync(`./UIColor+${_.toUpper(lang)}Color.h`, ojcH, 'utf8');
-            fs.writeFileSync(`./UIColor+${_.toUpper(lang)}Color.m`, ojcM, 'utf8');
+            fs.writeFileSync(`./UIColor+ZHColor.h`, ojcH, 'utf8');
+            fs.writeFileSync(`./UIColor+ZHColor.m`, ojcM, 'utf8');
             swift += '}';
-            fs.writeFileSync(`./${_.toUpper(lang)}Color.swift`, swift, 'utf8');
-        } else {
-            console.log(error);
+            fs.writeFileSync(`./ZHColor.swift`, swift, 'utf8');
         }
     });
-}
+});
 
 function hexToRgb(hex) {
     hex = _.trimStart(hex, '#');
