@@ -73,7 +73,7 @@ gulp.task('zhcolor', function () {
                     swift += `\tstatic var ${colorNamePinYin} : UIColor = UIColor(red:${rgb.r}, green:${rgb.g}, blue:${rgb.b}, alpha:1.0);//${colorName}\n`;
                 }
 
-                md += `<tr><td style="background-color:${color};"></td><td>${colorName}</td><td>${colorNamePinYin}</td><td>HEX: ${color}</td><td>RGB: ${rgb.r},${rgb.g},${rgb.b}</td></tr>`;
+                md += `<tr><td bgcolor="${color}"></td><td>${colorName}</td><td>${colorNamePinYin}</td><td>HEX: ${color}</td><td>RGB: ${rgb.r},${rgb.g},${rgb.b}</td></tr>`;
             }
 
             fs.writeFileSync('./zhcolor.scss', scss, 'utf8');
