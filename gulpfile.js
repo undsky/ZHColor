@@ -40,8 +40,11 @@ gulp.task('zhcolor', function () {
             }
 
             let scss = '';
-            let frontcolor = '';
-            let bgcolor = '';
+            let scss_frontcolor = '';
+            let scss_bgcolor = '';
+            let less = '';
+            let less_frontcolor = '';
+            let less_bgcolor = '';
             let android = '<?xml version="1.0" encoding="utf-8"?>\n<resources>\n';
             let ojcH = `#import <UIKit/UIKit.h>\n\n@interface UIColor (ZHColor)\n\n`;
             let ojcM = `#import "UIColor+ZHColor.h"\n\n@implementation UIColor (ZHColor)\n\n`;
@@ -65,8 +68,11 @@ gulp.task('zhcolor', function () {
 
                 color = _.trim(color);
                 scss += `$${colorNamePinYin}:${color};//${colorName}\n`;
-                frontcolor += `.${colorNamePinYin} {\n\tcolor: $${colorNamePinYin};\n}\n`;
-                bgcolor += `.bg-${colorNamePinYin} {\n\tbackground-color: $${colorNamePinYin};\n}\n`;
+                scss_frontcolor += `.${colorNamePinYin} {\n\tcolor: $${colorNamePinYin};\n}\n`;
+                scss_bgcolor += `.bg-${colorNamePinYin} {\n\tbackground-color: $${colorNamePinYin};\n}\n`;
+                less += `@${colorNamePinYin}:${color};//${colorName}\n`;
+                less_frontcolor += `.${colorNamePinYin} {\n\tcolor: @${colorNamePinYin};\n}\n`;
+                less_bgcolor += `.bg-${colorNamePinYin} {\n\tbackground-color: @${colorNamePinYin};\n}\n`;
                 android += `\t<color name="${colorNamePinYin}">${color}</color><!-- ${colorName} -->\n`;
 
                 let rgb = hexToRgb(color);
@@ -80,7 +86,8 @@ gulp.task('zhcolor', function () {
                 md += `<tr><td bgcolor="${color}"></td><td>${colorName}</td><td>${colorNamePinYin}</td><td>HEX: ${color}</td><td>RGB: ${rgb.r},${rgb.g},${rgb.b}</td></tr>`;
             }
 
-            fs.writeFileSync('./zhcolor.scss', scss + frontcolor + bgcolor, 'utf8');
+            fs.writeFileSync('./zhcolor.scss', scss + scss_frontcolor + scss_bgcolor, 'utf8');
+            fs.writeFileSync('./zhcolor.less', less + less_frontcolor + less_bgcolor, 'utf8');
             android += '</resources>';
             fs.writeFileSync('./zhcolors.xml', android, 'utf8');
             ojcH += '\n@end';
