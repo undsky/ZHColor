@@ -2,509 +2,371 @@
 
 @implementation UIColor (ZHColor)
 
-	+ (UIColor *) fenhong {
-	return [UIColor colorWithRed:1.000 green:0.702 blue:0.655 alpha:1.0];
-}
-	+ (UIColor *) feise {
-	return [UIColor colorWithRed:0.929 green:0.341 blue:0.212 alpha:1.0];
-}
-	+ (UIColor *) pinhong {
-	return [UIColor colorWithRed:0.941 green:0.000 blue:0.337 alpha:1.0];
-}
-	+ (UIColor *) taohong {
-	return [UIColor colorWithRed:0.957 green:0.475 blue:0.514 alpha:1.0];
-}
-	+ (UIColor *) haitanghong {
-	return [UIColor colorWithRed:0.859 green:0.353 blue:0.420 alpha:1.0];
-}
-	+ (UIColor *) shiliuhong {
-	return [UIColor colorWithRed:0.949 green:0.047 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) yingtaose {
-	return [UIColor colorWithRed:0.788 green:0.216 blue:0.337 alpha:1.0];
-}
-	+ (UIColor *) yinhong {
-	return [UIColor colorWithRed:0.941 green:0.337 blue:0.329 alpha:1.0];
-}
-	+ (UIColor *) dahong {
-	return [UIColor colorWithRed:1.000 green:0.129 blue:0.129 alpha:1.0];
-}
-	+ (UIColor *) jiangzi {
-	return [UIColor colorWithRed:0.549 green:0.263 blue:0.337 alpha:1.0];
-}
-	+ (UIColor *) feihong {
-	return [UIColor colorWithRed:0.784 green:0.235 blue:0.137 alpha:1.0];
-}
-	+ (UIColor *) yanzhi {
-	return [UIColor colorWithRed:0.616 green:0.161 blue:0.200 alpha:1.0];
-}
-	+ (UIColor *) zhuhong {
-	return [UIColor colorWithRed:1.000 green:0.298 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) dan {
-	return [UIColor colorWithRed:1.000 green:0.306 blue:0.125 alpha:1.0];
-}
-	+ (UIColor *) tong {
-	return [UIColor colorWithRed:0.953 green:0.325 blue:0.212 alpha:1.0];
-}
-	+ (UIColor *) qianse {
-	return [UIColor colorWithRed:0.796 green:0.227 blue:0.337 alpha:1.0];
-}
-	+ (UIColor *) huohong {
-	return [UIColor colorWithRed:1.000 green:0.176 blue:0.318 alpha:1.0];
-}
-	+ (UIColor *) hechi {
-	return [UIColor colorWithRed:0.788 green:0.122 blue:0.216 alpha:1.0];
-}
-	+ (UIColor *) yanhong {
-	return [UIColor colorWithRed:0.937 green:0.478 blue:0.510 alpha:1.0];
-}
-	+ (UIColor *) yanghong {
-	return [UIColor colorWithRed:1.000 green:0.000 blue:0.592 alpha:1.0];
-}
-	+ (UIColor *) yan {
-	return [UIColor colorWithRed:1.000 green:0.200 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) chi {
-	return [UIColor colorWithRed:0.765 green:0.153 blue:0.169 alpha:1.0];
-}
-	+ (UIColor *) wan {
-	return [UIColor colorWithRed:0.663 green:0.506 blue:0.459 alpha:1.0];
-}
-	+ (UIColor *) zaohong {
-	return [UIColor colorWithRed:0.765 green:0.129 blue:0.212 alpha:1.0];
-}
-	+ (UIColor *) tan {
-	return [UIColor colorWithRed:0.702 green:0.427 blue:0.380 alpha:1.0];
-}
-	+ (UIColor *) yanhong_ {
-	return [UIColor colorWithRed:0.745 green:0.000 blue:0.184 alpha:1.0];
-}
-	+ (UIColor *) tuohong {
-	return [UIColor colorWithRed:0.863 green:0.188 blue:0.137 alpha:1.0];
-}
-	+ (UIColor *) tuoyan {
-	return [UIColor colorWithRed:0.976 green:0.565 blue:0.435 alpha:1.0];
-}
-	+ (UIColor *) ehuang {
-	return [UIColor colorWithRed:1.000 green:0.945 blue:0.263 alpha:1.0];
-}
-	+ (UIColor *) yahuang {
-	return [UIColor colorWithRed:0.980 green:1.000 blue:0.447 alpha:1.0];
-}
-	+ (UIColor *) yingcaose {
-	return [UIColor colorWithRed:0.918 green:1.000 blue:0.337 alpha:1.0];
-}
-	+ (UIColor *) xinghuang {
-	return [UIColor colorWithRed:1.000 green:0.651 blue:0.192 alpha:1.0];
-}
-	+ (UIColor *) xinghong {
-	return [UIColor colorWithRed:1.000 green:0.549 blue:0.192 alpha:1.0];
-}
-	+ (UIColor *) juhuang {
-	return [UIColor colorWithRed:1.000 green:0.537 blue:0.212 alpha:1.0];
-}
-	+ (UIColor *) chenghuang {
-	return [UIColor colorWithRed:1.000 green:0.643 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) juhong {
-	return [UIColor colorWithRed:1.000 green:0.459 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) jianghuang {
-	return [UIColor colorWithRed:1.000 green:0.780 blue:0.451 alpha:1.0];
-}
-	+ (UIColor *) xiangse {
-	return [UIColor colorWithRed:0.941 green:0.761 blue:0.224 alpha:1.0];
-}
-	+ (UIColor *) chengse {
-	return [UIColor colorWithRed:0.980 green:0.549 blue:0.208 alpha:1.0];
-}
-	+ (UIColor *) chase {
-	return [UIColor colorWithRed:0.702 green:0.361 blue:0.267 alpha:1.0];
-}
-	+ (UIColor *) tuose {
-	return [UIColor colorWithRed:0.659 green:0.518 blue:0.384 alpha:1.0];
-}
-	+ (UIColor *) hunhuang {
-	return [UIColor colorWithRed:0.784 green:0.608 blue:0.251 alpha:1.0];
-}
-	+ (UIColor *) lise {
-	return [UIColor colorWithRed:0.376 green:0.157 blue:0.118 alpha:1.0];
-}
-	+ (UIColor *) zongse {
-	return [UIColor colorWithRed:0.698 green:0.365 blue:0.145 alpha:1.0];
-}
-	+ (UIColor *) zonglv {
-	return [UIColor colorWithRed:0.510 green:0.443 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) zonghei {
-	return [UIColor colorWithRed:0.486 green:0.294 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) zonghong {
-	return [UIColor colorWithRed:0.608 green:0.267 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) zonghuang {
-	return [UIColor colorWithRed:0.682 green:0.439 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) zhese {
-	return [UIColor colorWithRed:0.584 green:0.333 blue:0.224 alpha:1.0];
-}
-	+ (UIColor *) hupo {
-	return [UIColor colorWithRed:0.792 green:0.412 blue:0.141 alpha:1.0];
-}
-	+ (UIColor *) hese {
-	return [UIColor colorWithRed:0.431 green:0.318 blue:0.118 alpha:1.0];
-}
-	+ (UIColor *) kuhuang {
-	return [UIColor colorWithRed:0.827 green:0.694 blue:0.490 alpha:1.0];
-}
-	+ (UIColor *) huanglu {
-	return [UIColor colorWithRed:0.886 green:0.612 blue:0.271 alpha:1.0];
-}
-	+ (UIColor *) qiuse {
-	return [UIColor colorWithRed:0.537 green:0.424 blue:0.224 alpha:1.0];
-}
-	+ (UIColor *) qiuxiangse {
-	return [UIColor colorWithRed:0.851 green:0.714 blue:0.067 alpha:1.0];
-}
-	+ (UIColor *) nenlv {
-	return [UIColor colorWithRed:0.741 green:0.867 blue:0.133 alpha:1.0];
-}
-	+ (UIColor *) liuhuang {
-	return [UIColor colorWithRed:0.788 green:0.867 blue:0.133 alpha:1.0];
-}
-	+ (UIColor *) liulv {
-	return [UIColor colorWithRed:0.686 green:0.867 blue:0.133 alpha:1.0];
-}
-	+ (UIColor *) zhuqing {
-	return [UIColor colorWithRed:0.471 green:0.573 blue:0.384 alpha:1.0];
-}
-	+ (UIColor *) conghuang {
-	return [UIColor colorWithRed:0.639 green:0.851 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) conglv {
-	return [UIColor colorWithRed:0.620 green:0.851 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) congqing {
-	return [UIColor colorWithRed:0.055 green:0.722 blue:0.227 alpha:1.0];
-}
-	+ (UIColor *) qingcong {
-	return [UIColor colorWithRed:0.039 green:0.639 blue:0.267 alpha:1.0];
-}
-	+ (UIColor *) youlv {
-	return [UIColor colorWithRed:0.000 green:0.737 blue:0.071 alpha:1.0];
-}
-	+ (UIColor *) lvchen {
-	return [UIColor colorWithRed:0.047 green:0.537 blue:0.094 alpha:1.0];
-}
-	+ (UIColor *) bise {
-	return [UIColor colorWithRed:0.106 green:0.820 blue:0.647 alpha:1.0];
-}
-	+ (UIColor *) bilv {
-	return [UIColor colorWithRed:0.165 green:0.867 blue:0.612 alpha:1.0];
-}
-	+ (UIColor *) qingbi {
-	return [UIColor colorWithRed:0.282 green:0.753 blue:0.639 alpha:1.0];
-}
-	+ (UIColor *) feicuise {
-	return [UIColor colorWithRed:0.239 green:0.882 blue:0.678 alpha:1.0];
-}
-	+ (UIColor *) caolv {
-	return [UIColor colorWithRed:0.251 green:0.871 blue:0.353 alpha:1.0];
-}
-	+ (UIColor *) qingse {
-	return [UIColor colorWithRed:0.000 green:0.878 blue:0.620 alpha:1.0];
-}
-	+ (UIColor *) qingcui {
-	return [UIColor colorWithRed:0.000 green:0.878 blue:0.475 alpha:1.0];
-}
-	+ (UIColor *) qingbai {
-	return [UIColor colorWithRed:0.753 green:0.922 blue:0.843 alpha:1.0];
-}
-	+ (UIColor *) yaluanqing {
-	return [UIColor colorWithRed:0.878 green:0.933 blue:0.910 alpha:1.0];
-}
-	+ (UIColor *) xiekeqing {
-	return [UIColor colorWithRed:0.733 green:0.804 blue:0.773 alpha:1.0];
-}
-	+ (UIColor *) yaqing {
-	return [UIColor colorWithRed:0.259 green:0.298 blue:0.314 alpha:1.0];
-}
-	+ (UIColor *) lvse {
-	return [UIColor colorWithRed:0.000 green:0.898 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) doulv {
-	return [UIColor colorWithRed:0.620 green:0.816 blue:0.282 alpha:1.0];
-}
-	+ (UIColor *) douqing {
-	return [UIColor colorWithRed:0.588 green:0.808 blue:0.329 alpha:1.0];
-}
-	+ (UIColor *) shiqing {
-	return [UIColor colorWithRed:0.482 green:0.812 blue:0.651 alpha:1.0];
-}
-	+ (UIColor *) yuse {
-	return [UIColor colorWithRed:0.482 green:0.812 blue:0.651 alpha:1.0];
-}
-	+ (UIColor *) piao {
-	return [UIColor colorWithRed:0.498 green:0.925 blue:0.678 alpha:1.0];
-}
-	+ (UIColor *) ailv {
-	return [UIColor colorWithRed:0.643 green:0.886 blue:0.776 alpha:1.0];
-}
-	+ (UIColor *) songbailv {
-	return [UIColor colorWithRed:0.129 green:0.651 blue:0.459 alpha:1.0];
-}
-	+ (UIColor *) songhualv {
-	return [UIColor colorWithRed:0.020 green:0.467 blue:0.282 alpha:1.0];
-}
-	+ (UIColor *) songhuase {
-	return [UIColor colorWithRed:0.737 green:0.902 blue:0.447 alpha:1.0];
-}
-	+ (UIColor *) lan {
-	return [UIColor colorWithRed:0.267 green:0.808 blue:0.965 alpha:1.0];
-}
-	+ (UIColor *) dianqing {
-	return [UIColor colorWithRed:0.090 green:0.486 blue:0.690 alpha:1.0];
-}
-	+ (UIColor *) dianlan {
-	return [UIColor colorWithRed:0.024 green:0.322 blue:0.475 alpha:1.0];
-}
-	+ (UIColor *) bilan {
-	return [UIColor colorWithRed:0.243 green:0.929 blue:0.906 alpha:1.0];
-}
-	+ (UIColor *) weilan {
-	return [UIColor colorWithRed:0.439 green:0.953 blue:1.000 alpha:1.0];
+	+ (UIColor *) baicaoshuang {
+	return [UIColor colorWithRed:48 green:48 blue:48 alpha:1.0];
+}
+	+ (UIColor *) baifanghuilan {
+	return [UIColor colorWithRed:78 green:24 blue:146 alpha:1.0];
 }
 	+ (UIColor *) baolan {
-	return [UIColor colorWithRed:0.294 green:0.361 blue:0.769 alpha:1.0];
+	return [UIColor colorWithRed:31 green:54 blue:150 alpha:1.0];
 }
-	+ (UIColor *) lanhuise {
-	return [UIColor colorWithRed:0.631 green:0.686 blue:0.788 alpha:1.0];
+	+ (UIColor *) beijingmaolan {
+	return [UIColor colorWithRed:39 green:104 blue:147 alpha:1.0];
 }
-	+ (UIColor *) zangqing {
-	return [UIColor colorWithRed:0.180 green:0.306 blue:0.494 alpha:1.0];
-}
-	+ (UIColor *) zanglan {
-	return [UIColor colorWithRed:0.231 green:0.180 blue:0.494 alpha:1.0];
-}
-	+ (UIColor *) dai {
-	return [UIColor colorWithRed:0.290 green:0.259 blue:0.400 alpha:1.0];
-}
-	+ (UIColor *) dailv {
-	return [UIColor colorWithRed:0.259 green:0.400 blue:0.400 alpha:1.0];
-}
-	+ (UIColor *) dailan {
-	return [UIColor colorWithRed:0.259 green:0.314 blue:0.400 alpha:1.0];
-}
-	+ (UIColor *) daizi {
-	return [UIColor colorWithRed:0.341 green:0.259 blue:0.400 alpha:1.0];
-}
-	+ (UIColor *) zise {
-	return [UIColor colorWithRed:0.553 green:0.294 blue:0.733 alpha:1.0];
-}
-	+ (UIColor *) zijiang {
-	return [UIColor colorWithRed:0.506 green:0.329 blue:0.388 alpha:1.0];
-}
-	+ (UIColor *) jiangzi_ {
-	return [UIColor colorWithRed:0.506 green:0.329 blue:0.463 alpha:1.0];
-}
-	+ (UIColor *) zitan {
-	return [UIColor colorWithRed:0.298 green:0.133 blue:0.106 alpha:1.0];
-}
-	+ (UIColor *) ganqing {
-	return [UIColor colorWithRed:0.000 green:0.200 blue:0.443 alpha:1.0];
-}
-	+ (UIColor *) zitang {
-	return [UIColor colorWithRed:0.337 green:0.000 blue:0.310 alpha:1.0];
-}
-	+ (UIColor *) qinglian {
-	return [UIColor colorWithRed:0.502 green:0.114 blue:0.682 alpha:1.0];
-}
-	+ (UIColor *) qunqing {
-	return [UIColor colorWithRed:0.298 green:0.553 blue:0.682 alpha:1.0];
-}
-	+ (UIColor *) xueqing {
-	return [UIColor colorWithRed:0.690 green:0.643 blue:0.890 alpha:1.0];
-}
-	+ (UIColor *) dingxiangse {
-	return [UIColor colorWithRed:0.800 green:0.643 blue:0.890 alpha:1.0];
-}
-	+ (UIColor *) ouse {
-	return [UIColor colorWithRed:0.929 green:0.820 blue:0.847 alpha:1.0];
-}
-	+ (UIColor *) ouhese {
-	return [UIColor colorWithRed:0.894 green:0.776 blue:0.816 alpha:1.0];
-}
-	+ (UIColor *) cangse {
-	return [UIColor colorWithRed:0.459 green:0.529 blue:0.541 alpha:1.0];
+	+ (UIColor *) biyushi {
+	return [UIColor colorWithRed:86 green:149 blue:151 alpha:1.0];
 }
 	+ (UIColor *) canghuang {
-	return [UIColor colorWithRed:0.318 green:0.604 blue:0.451 alpha:1.0];
+	return [UIColor colorWithRed:198 green:83 blue:6 alpha:1.0];
 }
-	+ (UIColor *) cangqing {
-	return [UIColor colorWithRed:0.635 green:0.608 blue:0.486 alpha:1.0];
+	+ (UIColor *) zanglan {
+	return [UIColor colorWithRed:37 green:56 blue:107 alpha:1.0];
 }
-	+ (UIColor *) canghei {
-	return [UIColor colorWithRed:0.451 green:0.592 blue:0.671 alpha:1.0];
+	+ (UIColor *) canglyu {
+	return [UIColor colorWithRed:78 green:95 blue:69 alpha:1.0];
 }
-	+ (UIColor *) cangbai {
-	return [UIColor colorWithRed:0.820 green:0.851 blue:0.878 alpha:1.0];
+	+ (UIColor *) caohuang {
+	return [UIColor colorWithRed:219 green:206 blue:84 alpha:1.0];
 }
-	+ (UIColor *) shuise {
-	return [UIColor colorWithRed:0.533 green:0.678 blue:0.651 alpha:1.0];
+	+ (UIColor *) chengdehui {
+	return [UIColor colorWithRed:117 green:117 blue:112 alpha:1.0];
 }
-	+ (UIColor *) shuihong {
-	return [UIColor colorWithRed:0.953 green:0.827 blue:0.906 alpha:1.0];
+	+ (UIColor *) chengdezao {
+	return [UIColor colorWithRed:90 green:92 blue:91 alpha:1.0];
 }
-	+ (UIColor *) shuilv {
-	return [UIColor colorWithRed:0.831 green:0.949 blue:0.906 alpha:1.0];
+	+ (UIColor *) chensha {
+	return [UIColor colorWithRed:175 green:94 blue:83 alpha:1.0];
 }
-	+ (UIColor *) shuilan {
-	return [UIColor colorWithRed:0.824 green:0.941 blue:0.957 alpha:1.0];
+	+ (UIColor *) chunlan {
+	return [UIColor colorWithRed:123 green:161 blue:168 alpha:1.0];
 }
-	+ (UIColor *) danqing {
-	return [UIColor colorWithRed:0.827 green:0.878 blue:0.953 alpha:1.0];
+	+ (UIColor *) chunlyu {
+	return [UIColor colorWithRed:227 green:239 blue:209 alpha:1.0];
 }
-	+ (UIColor *) hulan {
-	return [UIColor colorWithRed:0.188 green:0.875 blue:0.953 alpha:1.0];
+	+ (UIColor *) cuilyu {
+	return [UIColor colorWithRed:0 green:110 blue:95 alpha:1.0];
 }
-	+ (UIColor *) hulv {
-	return [UIColor colorWithRed:0.145 green:0.973 blue:0.796 alpha:1.0];
+	+ (UIColor *) cujingzao {
+	return [UIColor colorWithRed:67 green:69 blue:74 alpha:1.0];
 }
-	+ (UIColor *) jingbai {
-	return [UIColor colorWithRed:1.000 green:1.000 blue:1.000 alpha:1.0];
+	+ (UIColor *) dachijin {
+	return [UIColor colorWithRed:109 green:115 blue:88 alpha:1.0];
 }
-	+ (UIColor *) xiangyabai {
-	return [UIColor colorWithRed:1.000 green:0.984 blue:0.941 alpha:1.0];
+	+ (UIColor *) dailan {
+	return [UIColor colorWithRed:48 green:71 blue:88 alpha:1.0];
 }
-	+ (UIColor *) xuebai {
-	return [UIColor colorWithRed:0.941 green:0.988 blue:1.000 alpha:1.0];
+	+ (UIColor *) dandongshi {
+	return [UIColor colorWithRed:215 green:193 blue:107 alpha:1.0];
 }
-	+ (UIColor *) yuebai {
-	return [UIColor colorWithRed:0.839 green:0.925 blue:0.941 alpha:1.0];
+	+ (UIColor *) danhuilyu {
+	return [UIColor colorWithRed:174 green:196 blue:183 alpha:1.0];
 }
-	+ (UIColor *) gao {
-	return [UIColor colorWithRed:0.949 green:0.925 blue:0.871 alpha:1.0];
+	+ (UIColor *) dengcaohui {
+	return [UIColor colorWithRed:54 green:53 blue:50 alpha:1.0];
 }
-	+ (UIColor *) su {
-	return [UIColor colorWithRed:0.878 green:0.941 blue:0.914 alpha:1.0];
+	+ (UIColor *) dianlan {
+	return [UIColor colorWithRed:27 green:84 blue:242 alpha:1.0];
 }
-	+ (UIColor *) tubai {
-	return [UIColor colorWithRed:0.953 green:0.976 blue:0.945 alpha:1.0];
+	+ (UIColor *) fanqiehong {
+	return [UIColor colorWithRed:196 green:71 blue:61 alpha:1.0];
 }
-	+ (UIColor *) shuangse {
-	return [UIColor colorWithRed:0.914 green:0.945 blue:0.965 alpha:1.0];
+	+ (UIColor *) feihong {
+	return [UIColor colorWithRed:195 green:86 blue:85 alpha:1.0];
 }
-	+ (UIColor *) huabai {
-	return [UIColor colorWithRed:0.761 green:0.800 blue:0.816 alpha:1.0];
+	+ (UIColor *) gancaohuang {
+	return [UIColor colorWithRed:228 green:207 blue:142 alpha:1.0];
 }
-	+ (UIColor *) yudubai {
-	return [UIColor colorWithRed:0.988 green:0.937 blue:0.910 alpha:1.0];
+	+ (UIColor *) ganlanlyu {
+	return [UIColor colorWithRed:106 green:104 blue:52 alpha:1.0];
 }
-	+ (UIColor *) yingbai {
-	return [UIColor colorWithRed:0.890 green:0.976 blue:0.992 alpha:1.0];
+	+ (UIColor *) ganshifen {
+	return [UIColor colorWithRed:234 green:220 blue:214 alpha:1.0];
 }
-	+ (UIColor *) huise {
-	return [UIColor colorWithRed:0.502 green:0.502 blue:0.502 alpha:1.0];
+	+ (UIColor *) gulan {
+	return [UIColor colorWithRed:100 green:147 blue:175 alpha:1.0];
 }
-	+ (UIColor *) yase {
-	return [UIColor colorWithRed:0.933 green:0.871 blue:0.690 alpha:1.0];
+	+ (UIColor *) guohui {
+	return [UIColor colorWithRed:136 green:174 blue:163 alpha:1.0];
 }
-	+ (UIColor *) qianbai {
-	return [UIColor colorWithRed:0.941 green:0.941 blue:0.957 alpha:1.0];
+	+ (UIColor *) hailan {
+	return [UIColor colorWithRed:23 green:80 blue:125 alpha:1.0];
 }
-	+ (UIColor *) xuanse {
-	return [UIColor colorWithRed:0.384 green:0.165 blue:0.114 alpha:1.0];
+	+ (UIColor *) hongzao {
+	return [UIColor colorWithRed:79 green:83 blue:85 alpha:1.0];
 }
-	+ (UIColor *) xuanqing {
-	return [UIColor colorWithRed:0.239 green:0.231 blue:0.310 alpha:1.0];
-}
-	+ (UIColor *) wuse {
-	return [UIColor colorWithRed:0.447 green:0.369 blue:0.510 alpha:1.0];
-}
-	+ (UIColor *) wuhei {
-	return [UIColor colorWithRed:0.224 green:0.184 blue:0.255 alpha:1.0];
-}
-	+ (UIColor *) qihei {
-	return [UIColor colorWithRed:0.086 green:0.094 blue:0.137 alpha:1.0];
-}
-	+ (UIColor *) mose {
-	return [UIColor colorWithRed:0.314 green:0.380 blue:0.427 alpha:1.0];
-}
-	+ (UIColor *) mohui {
-	return [UIColor colorWithRed:0.459 green:0.541 blue:0.600 alpha:1.0];
-}
-	+ (UIColor *) heise {
-	return [UIColor colorWithRed:0.000 green:0.000 blue:0.000 alpha:1.0];
-}
-	+ (UIColor *) zise_ {
-	return [UIColor colorWithRed:0.286 green:0.192 blue:0.192 alpha:1.0];
-}
-	+ (UIColor *) meihei {
-	return [UIColor colorWithRed:0.192 green:0.145 blue:0.125 alpha:1.0];
-}
-	+ (UIColor *) li {
-	return [UIColor colorWithRed:0.365 green:0.318 blue:0.235 alpha:1.0];
-}
-	+ (UIColor *) li_ {
-	return [UIColor colorWithRed:0.459 green:0.400 blue:0.302 alpha:1.0];
-}
-	+ (UIColor *) you {
-	return [UIColor colorWithRed:0.420 green:0.408 blue:0.510 alpha:1.0];
-}
-	+ (UIColor *) youhei {
-	return [UIColor colorWithRed:0.400 green:0.341 blue:0.341 alpha:1.0];
-}
-	+ (UIColor *) an {
-	return [UIColor colorWithRed:0.255 green:0.333 blue:0.365 alpha:1.0];
-}
-	+ (UIColor *) chijin {
-	return [UIColor colorWithRed:0.949 green:0.745 blue:0.271 alpha:1.0];
-}
-	+ (UIColor *) jinse {
-	return [UIColor colorWithRed:0.918 green:0.804 blue:0.463 alpha:1.0];
-}
-	+ (UIColor *) yinbai {
-	return [UIColor colorWithRed:0.914 green:0.906 blue:0.937 alpha:1.0];
-}
-	+ (UIColor *) tonglv {
-	return [UIColor colorWithRed:0.329 green:0.588 blue:0.533 alpha:1.0];
-}
-	+ (UIColor *) wujin {
-	return [UIColor colorWithRed:0.655 green:0.557 blue:0.267 alpha:1.0];
-}
-	+ (UIColor *) laoyin {
-	return [UIColor colorWithRed:0.729 green:0.792 blue:0.776 alpha:1.0];
-}
-	+ (UIColor *) yinzhu {
-	return [UIColor colorWithRed:0.749 green:0.141 blue:0.165 alpha:1.0];
-}
-	+ (UIColor *) zhusha {
-	return [UIColor colorWithRed:1.000 green:0.275 blue:0.122 alpha:1.0];
-}
-	+ (UIColor *) zhubiao {
-	return [UIColor colorWithRed:0.953 green:0.408 blue:0.220 alpha:1.0];
-}
-	+ (UIColor *) zheshi {
-	return [UIColor colorWithRed:0.518 green:0.353 blue:0.200 alpha:1.0];
-}
-	+ (UIColor *) shilv {
-	return [UIColor colorWithRed:0.086 green:0.663 blue:0.318 alpha:1.0];
-}
-	+ (UIColor *) baifen {
-	return [UIColor colorWithRed:1.000 green:0.949 blue:0.875 alpha:1.0];
+	+ (UIColor *) huanghui {
+	return [UIColor colorWithRed:176 green:183 blue:172 alpha:1.0];
 }
 	+ (UIColor *) huaqing {
-	return [UIColor colorWithRed:0.000 green:0.204 blue:0.447 alpha:1.0];
+	return [UIColor colorWithRed:84 green:107 blue:131 alpha:1.0];
+}
+	+ (UIColor *) hufen {
+	return [UIColor colorWithRed:235 green:232 blue:219 alpha:1.0];
+}
+	+ (UIColor *) huilan {
+	return [UIColor colorWithRed:93 green:130 blue:138 alpha:1.0];
+}
+	+ (UIColor *) huilyu {
+	return [UIColor colorWithRed:92 green:137 blue:135 alpha:1.0];
+}
+	+ (UIColor *) huimi {
+	return [UIColor colorWithRed:182 green:177 blue:150 alpha:1.0];
+}
+	+ (UIColor *) jianghuang {
+	return [UIColor colorWithRed:180 green:148 blue:54 alpha:1.0];
+}
+	+ (UIColor *) jiangxiaoni {
+	return [UIColor colorWithRed:109 green:97 blue:74 alpha:1.0];
+}
+	+ (UIColor *) jiangzi {
+	return [UIColor colorWithRed:112 green:77 blue:78 alpha:1.0];
+}
+	+ (UIColor *) jiehong {
+	return [UIColor colorWithRed:231 green:105 blue:63 alpha:1.0];
+}
+	+ (UIColor *) jiehuang {
+	return [UIColor colorWithRed:232 green:133 blue:59 alpha:1.0];
+}
+	+ (UIColor *) jinhuang {
+	return [UIColor colorWithRed:199 green:122 blue:58 alpha:1.0];
+}
+	+ (UIColor *) junlyu {
+	return [UIColor colorWithRed:202 green:212 blue:186 alpha:1.0];
+}
+	+ (UIColor *) kongquelan {
+	return [UIColor colorWithRed:0 green:65 blue:165 alpha:1.0];
+}
+	+ (UIColor *) kujin {
+	return [UIColor colorWithRed:133 green:121 blue:79 alpha:1.0];
+}
+	+ (UIColor *) kulyu {
+	return [UIColor colorWithRed:183 green:178 blue:120 alpha:1.0];
+}
+	+ (UIColor *) labai {
+	return [UIColor colorWithRed:231 green:229 blue:208 alpha:1.0];
+}
+	+ (UIColor *) laolyu {
+	return [UIColor colorWithRed:61 green:110 blue:83 alpha:1.0];
+}
+	+ (UIColor *) liuhuahong {
+	return [UIColor colorWithRed:213 green:75 blue:68 alpha:1.0];
+}
+	+ (UIColor *) luhui {
+	return [UIColor colorWithRed:169 green:176 blue:143 alpha:1.0];
+}
+	+ (UIColor *) meiguihong {
+	return [UIColor colorWithRed:151 green:52 blue:68 alpha:1.0];
+}
+	+ (UIColor *) meiguihui {
+	return [UIColor colorWithRed:121 green:61 blue:86 alpha:1.0];
+}
+	+ (UIColor *) mihong {
+	return [UIColor colorWithRed:225 green:189 blue:162 alpha:1.0];
+}
+	+ (UIColor *) mihui {
+	return [UIColor colorWithRed:197 green:191 blue:173 alpha:1.0];
+}
+	+ (UIColor *) mise {
+	return [UIColor colorWithRed:245 green:245 blue:220 alpha:1.0];
+}
+	+ (UIColor *) nailyu {
+	return [UIColor colorWithRed:175 green:200 blue:186 alpha:1.0];
+}
+	+ (UIColor *) naizong {
+	return [UIColor colorWithRed:193 green:162 blue:153 alpha:1.0];
+}
+	+ (UIColor *) ningmenghuang {
+	return [UIColor colorWithRed:233 green:219 blue:57 alpha:1.0];
+}
+	+ (UIColor *) pinhong {
+	return [UIColor colorWithRed:167 green:19 blue:104 alpha:1.0];
+}
+	+ (UIColor *) qianhaichanglan {
+	return [UIColor colorWithRed:60 green:94 blue:145 alpha:1.0];
+}
+	+ (UIColor *) qianhuangzong {
+	return [UIColor colorWithRed:222 green:168 blue:122 alpha:1.0];
+}
+	+ (UIColor *) qianjiehuang {
+	return [UIColor colorWithRed:218 green:149 blue:88 alpha:1.0];
+}
+	+ (UIColor *) qianniuzi {
+	return [UIColor colorWithRed:162 green:32 blue:118 alpha:1.0];
+}
+	+ (UIColor *) qianshiyingzi {
+	return [UIColor colorWithRed:171 green:150 blue:197 alpha:1.0];
+}
+	+ (UIColor *) qiantengzi {
+	return [UIColor colorWithRed:196 green:195 blue:203 alpha:1.0];
+}
+	+ (UIColor *) qiantuose {
+	return [UIColor colorWithRed:201 green:174 blue:140 alpha:1.0];
+}
+	+ (UIColor *) qianxieya {
+	return [UIColor colorWithRed:234 green:205 blue:209 alpha:1.0];
+}
+	+ (UIColor *) qianzonghui {
+	return [UIColor colorWithRed:225 green:219 blue:205 alpha:1.0];
+}
+	+ (UIColor *) kaqihuang {
+	return [UIColor colorWithRed:213 green:184 blue:132 alpha:1.0];
+}
+	+ (UIColor *) kaqilyu {
+	return [UIColor colorWithRed:100 green:115 blue:112 alpha:1.0];
+}
+	+ (UIColor *) qiepizi {
+	return [UIColor colorWithRed:103 green:73 blue:80 alpha:1.0];
+}
+	+ (UIColor *) quehui {
+	return [UIColor colorWithRed:69 green:86 blue:103 alpha:1.0];
+}
+	+ (UIColor *) ronglan {
+	return [UIColor colorWithRed:49 green:103 blue:141 alpha:1.0];
+}
+	+ (UIColor *) sanlyu {
+	return [UIColor colorWithRed:144 green:202 blue:175 alpha:1.0];
+}
+	+ (UIColor *) shalyu {
+	return [UIColor colorWithRed:0 green:91 blue:90 alpha:1.0];
+}
+	+ (UIColor *) shaqing {
+	return [UIColor colorWithRed:43 green:94 blue:125 alpha:1.0];
+}
+	+ (UIColor *) shenyan {
+	return [UIColor colorWithRed:90 green:76 blue:76 alpha:1.0];
+}
+	+ (UIColor *) shenyanhong {
+	return [UIColor colorWithRed:100 green:52 blue:65 alpha:1.0];
+}
+	+ (UIColor *) shenzhuyue {
+	return [UIColor colorWithRed:37 green:120 blue:181 alpha:1.0];
+}
+	+ (UIColor *) shiyangjin {
+	return [UIColor colorWithRed:252 green:177 blue:170 alpha:1.0];
+}
+	+ (UIColor *) shuidiaohui {
+	return [UIColor colorWithRed:148 green:156 blue:151 alpha:1.0];
+}
+	+ (UIColor *) shuihuang {
+	return [UIColor colorWithRed:190 green:210 blue:182 alpha:1.0];
 }
 	+ (UIColor *) tenghuang {
-	return [UIColor colorWithRed:1.000 green:0.714 blue:0.118 alpha:1.0];
+	return [UIColor colorWithRed:242 green:222 blue:118 alpha:1.0];
 }
-	+ (UIColor *) cihuang {
-	return [UIColor colorWithRed:1.000 green:0.776 blue:0.294 alpha:1.0];
+	+ (UIColor *) tianqing {
+	return [UIColor colorWithRed:46 green:195 blue:231 alpha:1.0];
+}
+	+ (UIColor *) tiehui {
+	return [UIColor colorWithRed:55 green:68 blue:75 alpha:1.0];
+}
+	+ (UIColor *) tuhuang {
+	return [UIColor colorWithRed:206 green:147 blue:53 alpha:1.0];
+}
+	+ (UIColor *) xiangsihui {
+	return [UIColor colorWithRed:98 green:92 blue:82 alpha:1.0];
+}
+	+ (UIColor *) xiehong {
+	return [UIColor colorWithRed:160 green:62 blue:40 alpha:1.0];
+}
+	+ (UIColor *) xinghong {
+	return [UIColor colorWithRed:196 green:55 blue:57 alpha:1.0];
 }
 	+ (UIColor *) xionghuang {
-	return [UIColor colorWithRed:0.914 green:0.733 blue:0.114 alpha:1.0];
+	return [UIColor colorWithRed:208 green:133 blue:61 alpha:1.0];
+}
+	+ (UIColor *) xiongjing {
+	return [UIColor colorWithRed:228 green:117 blue:66 alpha:1.0];
+}
+	+ (UIColor *) xiuhong {
+	return [UIColor colorWithRed:77 green:25 blue:25 alpha:1.0];
+}
+	+ (UIColor *) xiulyu {
+	return [UIColor colorWithRed:184 green:200 blue:183 alpha:1.0];
+}
+	+ (UIColor *) xuanjin {
+	return [UIColor colorWithRed:121 green:111 blue:84 alpha:1.0];
+}
+	+ (UIColor *) xuese {
+	return [UIColor colorWithRed:255 green:250 blue:250 alpha:1.0];
+}
+	+ (UIColor *) xuezi {
+	return [UIColor colorWithRed:121 green:72 blue:90 alpha:1.0];
+}
+	+ (UIColor *) yadanqing {
+	return [UIColor colorWithRed:209 green:227 blue:219 alpha:1.0];
+}
+	+ (UIColor *) yangcongzi {
+	return [UIColor colorWithRed:156 green:102 blue:128 alpha:1.0];
+}
+	+ (UIColor *) yanghong {
+	return [UIColor colorWithRed:220 green:20 blue:60 alpha:1.0];
+}
+	+ (UIColor *) yanhong {
+	return [UIColor colorWithRed:204 green:53 blue:54 alpha:1.0];
+}
+	+ (UIColor *) yingwulyu {
+	return [UIColor colorWithRed:0 green:142 blue:89 alpha:1.0];
+}
+	+ (UIColor *) yinzhu {
+	return [UIColor colorWithRed:221 green:59 blue:68 alpha:1.0];
+}
+	+ (UIColor *) youlyu {
+	return [UIColor colorWithRed:69 green:85 blue:74 alpha:1.0];
+}
+	+ (UIColor *) youyanmo {
+	return [UIColor colorWithRed:63 green:63 blue:60 alpha:1.0];
+}
+	+ (UIColor *) yuanqing {
+	return [UIColor colorWithRed:62 green:60 blue:61 alpha:1.0];
+}
+	+ (UIColor *) yanzhi {
+	return [UIColor colorWithRed:192 green:63 blue:60 alpha:1.0];
+}
+	+ (UIColor *) yinbo {
+	return [UIColor colorWithRed:88 green:90 blue:87 alpha:1.0];
+}
+	+ (UIColor *) yuejihong {
+	return [UIColor colorWithRed:187 green:28 blue:51 alpha:1.0];
+}
+	+ (UIColor *) yushilan {
+	return [UIColor colorWithRed:80 green:120 blue:131 alpha:1.0];
+}
+	+ (UIColor *) zaohong {
+	return [UIColor colorWithRed:137 green:48 blue:63 alpha:1.0];
+}
+	+ (UIColor *) zhangdan {
+	return [UIColor colorWithRed:235 green:101 blue:45 alpha:1.0];
+}
+	+ (UIColor *) zhenghui {
+	return [UIColor colorWithRed:147 green:162 blue:169 alpha:1.0];
+}
+	+ (UIColor *) zhihuang {
+	return [UIColor colorWithRed:219 green:199 blue:166 alpha:1.0];
+}
+	+ (UIColor *) zhijinhui {
+	return [UIColor colorWithRed:116 green:138 blue:141 alpha:1.0];
+}
+	+ (UIColor *) zhizong {
+	return [UIColor colorWithRed:188 green:165 blue:144 alpha:1.0];
+}
+	+ (UIColor *) zhongzonghui {
+	return [UIColor colorWithRed:169 green:152 blue:124 alpha:1.0];
+}
+	+ (UIColor *) zifen {
+	return [UIColor colorWithRed:165 green:67 blue:88 alpha:1.0];
+}
+	+ (UIColor *) zishuijing {
+	return [UIColor colorWithRed:195 green:166 blue:203 alpha:1.0];
+}
+	+ (UIColor *) zitenghui {
+	return [UIColor colorWithRed:133 green:126 blue:149 alpha:1.0];
+}
+	+ (UIColor *) ziweihua {
+	return [UIColor colorWithRed:238 green:165 blue:209 alpha:1.0];
+}
+	+ (UIColor *) zongcha {
+	return [UIColor colorWithRed:184 green:132 blue:79 alpha:1.0];
 }
 
 @end

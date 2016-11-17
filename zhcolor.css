@@ -1,1009 +1,733 @@
-.fenhong {
-  color: #ffb3a7; }
-
-.feise {
-  color: #ed5736; }
-
-.pinhong {
-  color: #f00056; }
-
-.taohong {
-  color: #f47983; }
-
-.haitanghong {
-  color: #db5a6b; }
-
-.shiliuhong {
-  color: #f20c00; }
-
-.yingtaose {
-  color: #c93756; }
-
-.yinhong {
-  color: #f05654; }
-
-.dahong {
-  color: #ff2121; }
-
-.jiangzi {
-  color: #8c4356; }
-
-.feihong {
-  color: #c83c23; }
-
-.yanzhi {
-  color: #9d2933; }
-
-.zhuhong {
-  color: #ff4c00; }
-
-.dan {
-  color: #ff4e20; }
-
-.tong {
-  color: #f35336; }
-
-.qianse {
-  color: #cb3a56; }
-
-.huohong {
-  color: #ff2d51; }
-
-.hechi {
-  color: #c91f37; }
-
-.yanhong {
-  color: #ef7a82; }
-
-.yanghong {
-  color: #ff0097; }
-
-.yan {
-  color: #ff3300; }
-
-.chi {
-  color: #c3272b; }
-
-.wan {
-  color: #a98175; }
-
-.zaohong {
-  color: #c32136; }
-
-.tan {
-  color: #b36d61; }
-
-.yanhong_ {
-  color: #be002f; }
-
-.tuohong {
-  color: #dc3023; }
-
-.tuoyan {
-  color: #f9906f; }
-
-.ehuang {
-  color: #fff143; }
-
-.yahuang {
-  color: #faff72; }
-
-.yingcaose {
-  color: #eaff56; }
-
-.xinghuang {
-  color: #ffa631; }
-
-.xinghong {
-  color: #ff8c31; }
-
-.juhuang {
-  color: #ff8936; }
-
-.chenghuang {
-  color: #ffa400; }
-
-.juhong {
-  color: #ff7500; }
-
-.jianghuang {
-  color: #ffc773; }
-
-.xiangse {
-  color: #f0c239; }
-
-.chengse {
-  color: #fa8c35; }
-
-.chase {
-  color: #b35c44; }
-
-.tuose {
-  color: #a88462; }
-
-.hunhuang {
-  color: #c89b40; }
-
-.lise {
-  color: #60281e; }
-
-.zongse {
-  color: #b25d25; }
-
-.zonglv {
-  color: #827100; }
-
-.zonghei {
-  color: #7c4b00; }
-
-.zonghong {
-  color: #9b4400; }
-
-.zonghuang {
-  color: #ae7000; }
-
-.zhese {
-  color: #955539; }
-
-.hupo {
-  color: #ca6924; }
-
-.hese {
-  color: #6e511e; }
-
-.kuhuang {
-  color: #d3b17d; }
-
-.huanglu {
-  color: #e29c45; }
-
-.qiuse {
-  color: #896c39; }
-
-.qiuxiangse {
-  color: #d9b611; }
-
-.nenlv {
-  color: #bddd22; }
-
-.liuhuang {
-  color: #c9dd22; }
-
-.liulv {
-  color: #afdd22; }
-
-.zhuqing {
-  color: #789262; }
-
-.conghuang {
-  color: #a3d900; }
-
-.conglv {
-  color: #9ed900; }
-
-.congqing {
-  color: #0eb83a; }
-
-.qingcong {
-  color: #0aa344; }
-
-.youlv {
-  color: #00bc12; }
-
-.lvchen {
-  color: #0c8918; }
-
-.bise {
-  color: #1bd1a5; }
-
-.bilv {
-  color: #2add9c; }
-
-.qingbi {
-  color: #48c0a3; }
-
-.feicuise {
-  color: #3de1ad; }
-
-.caolv {
-  color: #40de5a; }
-
-.qingse {
-  color: #00e09e; }
-
-.qingcui {
-  color: #00e079; }
-
-.qingbai {
-  color: #c0ebd7; }
-
-.yaluanqing {
-  color: #e0eee8; }
-
-.xiekeqing {
-  color: #bbcdc5; }
-
-.yaqing {
-  color: #424c50; }
-
-.lvse {
-  color: #00e500; }
-
-.doulv {
-  color: #9ed048; }
-
-.douqing {
-  color: #96ce54; }
-
-.shiqing {
-  color: #7bcfa6; }
-
-.yuse {
-  color: #7bcfa6; }
-
-.piao {
-  color: #7fecad; }
-
-.ailv {
-  color: #a4e2c6; }
-
-.songbailv {
-  color: #21a675; }
-
-.songhualv {
-  color: #057748; }
-
-.songhuase {
-  color: #bce672; }
-
-.lan {
-  color: #44CEF6; }
-
-.dianqing {
-  color: #177cb0; }
-
-.dianlan {
-  color: #065279; }
-
-.bilan {
-  color: #3eede7; }
-
-.weilan {
-  color: #70f3ff; }
+.baicaoshuang {
+  color: #303030; }
+
+.baifanghuilan {
+  color: #4e1892; }
 
 .baolan {
-  color: #4b5cc4; }
+  color: #1f3696; }
 
-.lanhuise {
-  color: #a1afc9; }
+.beijingmaolan {
+  color: #276893; }
 
-.zangqing {
-  color: #2e4e7e; }
-
-.zanglan {
-  color: #3b2e7e; }
-
-.dai {
-  color: #4a4266; }
-
-.dailv {
-  color: #426666; }
-
-.dailan {
-  color: #425066; }
-
-.daizi {
-  color: #574266; }
-
-.zise {
-  color: #8d4bbb; }
-
-.zijiang {
-  color: #815463; }
-
-.jiangzi_ {
-  color: #815476; }
-
-.zitan {
-  color: #4c221b; }
-
-.ganqing {
-  color: #003371; }
-
-.zitang {
-  color: #56004f; }
-
-.qinglian {
-  color: #801dae; }
-
-.qunqing {
-  color: #4c8dae; }
-
-.xueqing {
-  color: #b0a4e3; }
-
-.dingxiangse {
-  color: #cca4e3; }
-
-.ouse {
-  color: #edd1d8; }
-
-.ouhese {
-  color: #e4c6d0; }
-
-.cangse {
-  color: #75878a; }
+.biyushi {
+  color: #569597; }
 
 .canghuang {
-  color: #519a73; }
+  color: #c65306; }
 
-.cangqing {
-  color: #a29b7c; }
+.zanglan {
+  color: #25386b; }
 
-.canghei {
-  color: #7397ab; }
+.canglyu {
+  color: #4e5f45; }
 
-.cangbai {
-  color: #d1d9e0; }
+.caohuang {
+  color: #dbce54; }
 
-.shuise {
-  color: #88ada6; }
+.chengdehui {
+  color: #757570; }
 
-.shuihong {
-  color: #f3d3e7; }
+.chengdezao {
+  color: #5a5c5b; }
 
-.shuilv {
-  color: #d4f2e7; }
+.chensha {
+  color: #af5e53; }
 
-.shuilan {
-  color: #d2f0f4; }
+.chunlan {
+  color: #7ba1a8; }
 
-.danqing {
-  color: #d3e0f3; }
+.chunlyu {
+  color: #e3efd1; }
 
-.hulan {
-  color: #30dff3; }
+.cuilyu {
+  color: #006e5f; }
 
-.hulv {
-  color: #25f8cb; }
+.cujingzao {
+  color: #43454a; }
 
-.jingbai {
-  color: #ffffff; }
+.dachijin {
+  color: #6d7358; }
 
-.xiangyabai {
-  color: #fffbf0; }
+.dailan {
+  color: #304758; }
 
-.xuebai {
-  color: #f0fcff; }
+.dandongshi {
+  color: #d7c16b; }
 
-.yuebai {
-  color: #d6ecf0; }
+.danhuilyu {
+  color: #aec4b7; }
 
-.gao {
-  color: #f2ecde; }
+.dengcaohui {
+  color: #363532; }
 
-.su {
-  color: #e0f0e9; }
+.dianlan {
+  color: #1b54f2; }
 
-.tubai {
-  color: #f3f9f1; }
+.fanqiehong {
+  color: #c4473d; }
 
-.shuangse {
-  color: #e9f1f6; }
+.feihong {
+  color: #c35655; }
 
-.huabai {
-  color: #c2ccd0; }
+.gancaohuang {
+  color: #e4cf8e; }
 
-.yudubai {
-  color: #fcefe8; }
+.ganlanlyu {
+  color: #6a6834; }
 
-.yingbai {
-  color: #e3f9fd; }
+.ganshifen {
+  color: #eadcd6; }
 
-.huise {
-  color: #808080; }
+.gulan {
+  color: #6493af; }
 
-.yase {
-  color: #eedeb0; }
+.guohui {
+  color: #88aea3; }
 
-.qianbai {
-  color: #f0f0f4; }
+.hailan {
+  color: #17507d; }
 
-.xuanse {
-  color: #622a1d; }
+.hongzao {
+  color: #4f5355; }
 
-.xuanqing {
-  color: #3d3b4f; }
-
-.wuse {
-  color: #725e82; }
-
-.wuhei {
-  color: #392f41; }
-
-.qihei {
-  color: #161823; }
-
-.mose {
-  color: #50616d; }
-
-.mohui {
-  color: #758a99; }
-
-.heise {
-  color: #000000; }
-
-.zise_ {
-  color: #493131; }
-
-.meihei {
-  color: #312520; }
-
-.li {
-  color: #5d513c; }
-
-.li_ {
-  color: #75664d; }
-
-.you {
-  color: #6b6882; }
-
-.youhei {
-  color: #665757; }
-
-.an {
-  color: #41555d; }
-
-.chijin {
-  color: #F2BE45; }
-
-.jinse {
-  color: #eacd76; }
-
-.yinbai {
-  color: #e9e7ef; }
-
-.tonglv {
-  color: #549688; }
-
-.wujin {
-  color: #a78e44; }
-
-.laoyin {
-  color: #bacac6; }
-
-.yinzhu {
-  color: #bf242a; }
-
-.zhusha {
-  color: #ff461f; }
-
-.zhubiao {
-  color: #f36838; }
-
-.zheshi {
-  color: #845a33; }
-
-.shilv {
-  color: #16a951; }
-
-.baifen {
-  color: #fff2df; }
+.huanghui {
+  color: #b0b7ac; }
 
 .huaqing {
-  color: #003472; }
+  color: #546b83; }
+
+.hufen {
+  color: #ebe8db; }
+
+.huilan {
+  color: #5d828a; }
+
+.huilyu {
+  color: #5c8987; }
+
+.huimi {
+  color: #b6b196; }
+
+.jianghuang {
+  color: #b49436; }
+
+.jiangxiaoni {
+  color: #6d614a; }
+
+.jiangzi {
+  color: #704d4e; }
+
+.jiehong {
+  color: #e7693f; }
+
+.jiehuang {
+  color: #e8853b; }
+
+.jinhuang {
+  color: #c77a3a; }
+
+.junlyu {
+  color: #cad4ba; }
+
+.kongquelan {
+  color: #0041a5; }
+
+.kujin {
+  color: #85794f; }
+
+.kulyu {
+  color: #b7b278; }
+
+.labai {
+  color: #e7e5d0; }
+
+.laolyu {
+  color: #3d6e53; }
+
+.liuhuahong {
+  color: #d54b44; }
+
+.luhui {
+  color: #a9b08f; }
+
+.meiguihong {
+  color: #973444; }
+
+.meiguihui {
+  color: #793d56; }
+
+.mihong {
+  color: #e1bda2; }
+
+.mihui {
+  color: #c5bfad; }
+
+.mise {
+  color: #f5f5dc; }
+
+.nailyu {
+  color: #afc8ba; }
+
+.naizong {
+  color: #c1a299; }
+
+.ningmenghuang {
+  color: #e9db39; }
+
+.pinhong {
+  color: #a71368; }
+
+.qianhaichanglan {
+  color: #3c5e91; }
+
+.qianhuangzong {
+  color: #dea87a; }
+
+.qianjiehuang {
+  color: #da9558; }
+
+.qianniuzi {
+  color: #a22076; }
+
+.qianshiyingzi {
+  color: #ab96c5; }
+
+.qiantengzi {
+  color: #c4c3cb; }
+
+.qiantuose {
+  color: #c9ae8c; }
+
+.qianxieya {
+  color: #eacdd1; }
+
+.qianzonghui {
+  color: #e1dbcd; }
+
+.kaqihuang {
+  color: #d5b884; }
+
+.kaqilyu {
+  color: #647370; }
+
+.qiepizi {
+  color: #674950; }
+
+.quehui {
+  color: #455667; }
+
+.ronglan {
+  color: #31678d; }
+
+.sanlyu {
+  color: #90caaf; }
+
+.shalyu {
+  color: #005b5a; }
+
+.shaqing {
+  color: #2b5e7d; }
+
+.shenyan {
+  color: #5a4c4c; }
+
+.shenyanhong {
+  color: #643441; }
+
+.shenzhuyue {
+  color: #2578b5; }
+
+.shiyangjin {
+  color: #fcb1aa; }
+
+.shuidiaohui {
+  color: #949c97; }
+
+.shuihuang {
+  color: #bed2b6; }
 
 .tenghuang {
-  color: #ffb61e; }
+  color: #f2de76; }
 
-.cihuang {
-  color: #ffc64b; }
+.tianqing {
+  color: #2ec3e7; }
+
+.tiehui {
+  color: #37444b; }
+
+.tuhuang {
+  color: #ce9335; }
+
+.xiangsihui {
+  color: #625c52; }
+
+.xiehong {
+  color: #a03e28; }
+
+.xinghong {
+  color: #c43739; }
 
 .xionghuang {
-  color: #e9bb1d; }
+  color: #d0853d; }
 
-.bg-fenhong {
-  background-color: #ffb3a7; }
+.xiongjing {
+  color: #e47542; }
 
-.bg-feise {
-  background-color: #ed5736; }
+.xiuhong {
+  color: #4d1919; }
 
-.bg-pinhong {
-  background-color: #f00056; }
+.xiulyu {
+  color: #b8c8b7; }
 
-.bg-taohong {
-  background-color: #f47983; }
+.xuanjin {
+  color: #796f54; }
 
-.bg-haitanghong {
-  background-color: #db5a6b; }
+.xuese {
+  color: #fffafa; }
 
-.bg-shiliuhong {
-  background-color: #f20c00; }
+.xuezi {
+  color: #79485a; }
 
-.bg-yingtaose {
-  background-color: #c93756; }
+.yadanqing {
+  color: #d1e3db; }
 
-.bg-yinhong {
-  background-color: #f05654; }
+.yangcongzi {
+  color: #9c6680; }
 
-.bg-dahong {
-  background-color: #ff2121; }
+.yanghong {
+  color: #dc143c; }
 
-.bg-jiangzi {
-  background-color: #8c4356; }
+.yanhong {
+  color: #cc3536; }
 
-.bg-feihong {
-  background-color: #c83c23; }
+.yingwulyu {
+  color: #008e59; }
 
-.bg-yanzhi {
-  background-color: #9d2933; }
+.yinzhu {
+  color: #dd3b44; }
 
-.bg-zhuhong {
-  background-color: #ff4c00; }
+.youlyu {
+  color: #45554a; }
 
-.bg-dan {
-  background-color: #ff4e20; }
+.youyanmo {
+  color: #3f3f3c; }
 
-.bg-tong {
-  background-color: #f35336; }
+.yuanqing {
+  color: #3e3c3d; }
 
-.bg-qianse {
-  background-color: #cb3a56; }
+.yanzhi {
+  color: #c03f3c; }
 
-.bg-huohong {
-  background-color: #ff2d51; }
+.yinbo {
+  color: #585a57; }
 
-.bg-hechi {
-  background-color: #c91f37; }
+.yuejihong {
+  color: #bb1c33; }
 
-.bg-yanhong {
-  background-color: #ef7a82; }
+.yushilan {
+  color: #507883; }
 
-.bg-yanghong {
-  background-color: #ff0097; }
+.zaohong {
+  color: #89303f; }
 
-.bg-yan {
-  background-color: #ff3300; }
+.zhangdan {
+  color: #eb652d; }
 
-.bg-chi {
-  background-color: #c3272b; }
+.zhenghui {
+  color: #93a2a9; }
 
-.bg-wan {
-  background-color: #a98175; }
+.zhihuang {
+  color: #dbc7a6; }
 
-.bg-zaohong {
-  background-color: #c32136; }
+.zhijinhui {
+  color: #748a8d; }
 
-.bg-tan {
-  background-color: #b36d61; }
+.zhizong {
+  color: #bca590; }
 
-.bg-yanhong_ {
-  background-color: #be002f; }
+.zhongzonghui {
+  color: #a9987c; }
 
-.bg-tuohong {
-  background-color: #dc3023; }
+.zifen {
+  color: #a54358; }
 
-.bg-tuoyan {
-  background-color: #f9906f; }
+.zishuijing {
+  color: #c3a6cb; }
 
-.bg-ehuang {
-  background-color: #fff143; }
+.zitenghui {
+  color: #857e95; }
 
-.bg-yahuang {
-  background-color: #faff72; }
+.ziweihua {
+  color: #eea5d1; }
 
-.bg-yingcaose {
-  background-color: #eaff56; }
+.zongcha {
+  color: #b8844f; }
 
-.bg-xinghuang {
-  background-color: #ffa631; }
+.bg-baicaoshuang {
+  background-color: #303030; }
 
-.bg-xinghong {
-  background-color: #ff8c31; }
-
-.bg-juhuang {
-  background-color: #ff8936; }
-
-.bg-chenghuang {
-  background-color: #ffa400; }
-
-.bg-juhong {
-  background-color: #ff7500; }
-
-.bg-jianghuang {
-  background-color: #ffc773; }
-
-.bg-xiangse {
-  background-color: #f0c239; }
-
-.bg-chengse {
-  background-color: #fa8c35; }
-
-.bg-chase {
-  background-color: #b35c44; }
-
-.bg-tuose {
-  background-color: #a88462; }
-
-.bg-hunhuang {
-  background-color: #c89b40; }
-
-.bg-lise {
-  background-color: #60281e; }
-
-.bg-zongse {
-  background-color: #b25d25; }
-
-.bg-zonglv {
-  background-color: #827100; }
-
-.bg-zonghei {
-  background-color: #7c4b00; }
-
-.bg-zonghong {
-  background-color: #9b4400; }
-
-.bg-zonghuang {
-  background-color: #ae7000; }
-
-.bg-zhese {
-  background-color: #955539; }
-
-.bg-hupo {
-  background-color: #ca6924; }
-
-.bg-hese {
-  background-color: #6e511e; }
-
-.bg-kuhuang {
-  background-color: #d3b17d; }
-
-.bg-huanglu {
-  background-color: #e29c45; }
-
-.bg-qiuse {
-  background-color: #896c39; }
-
-.bg-qiuxiangse {
-  background-color: #d9b611; }
-
-.bg-nenlv {
-  background-color: #bddd22; }
-
-.bg-liuhuang {
-  background-color: #c9dd22; }
-
-.bg-liulv {
-  background-color: #afdd22; }
-
-.bg-zhuqing {
-  background-color: #789262; }
-
-.bg-conghuang {
-  background-color: #a3d900; }
-
-.bg-conglv {
-  background-color: #9ed900; }
-
-.bg-congqing {
-  background-color: #0eb83a; }
-
-.bg-qingcong {
-  background-color: #0aa344; }
-
-.bg-youlv {
-  background-color: #00bc12; }
-
-.bg-lvchen {
-  background-color: #0c8918; }
-
-.bg-bise {
-  background-color: #1bd1a5; }
-
-.bg-bilv {
-  background-color: #2add9c; }
-
-.bg-qingbi {
-  background-color: #48c0a3; }
-
-.bg-feicuise {
-  background-color: #3de1ad; }
-
-.bg-caolv {
-  background-color: #40de5a; }
-
-.bg-qingse {
-  background-color: #00e09e; }
-
-.bg-qingcui {
-  background-color: #00e079; }
-
-.bg-qingbai {
-  background-color: #c0ebd7; }
-
-.bg-yaluanqing {
-  background-color: #e0eee8; }
-
-.bg-xiekeqing {
-  background-color: #bbcdc5; }
-
-.bg-yaqing {
-  background-color: #424c50; }
-
-.bg-lvse {
-  background-color: #00e500; }
-
-.bg-doulv {
-  background-color: #9ed048; }
-
-.bg-douqing {
-  background-color: #96ce54; }
-
-.bg-shiqing {
-  background-color: #7bcfa6; }
-
-.bg-yuse {
-  background-color: #7bcfa6; }
-
-.bg-piao {
-  background-color: #7fecad; }
-
-.bg-ailv {
-  background-color: #a4e2c6; }
-
-.bg-songbailv {
-  background-color: #21a675; }
-
-.bg-songhualv {
-  background-color: #057748; }
-
-.bg-songhuase {
-  background-color: #bce672; }
-
-.bg-lan {
-  background-color: #44CEF6; }
-
-.bg-dianqing {
-  background-color: #177cb0; }
-
-.bg-dianlan {
-  background-color: #065279; }
-
-.bg-bilan {
-  background-color: #3eede7; }
-
-.bg-weilan {
-  background-color: #70f3ff; }
+.bg-baifanghuilan {
+  background-color: #4e1892; }
 
 .bg-baolan {
-  background-color: #4b5cc4; }
+  background-color: #1f3696; }
 
-.bg-lanhuise {
-  background-color: #a1afc9; }
+.bg-beijingmaolan {
+  background-color: #276893; }
 
-.bg-zangqing {
-  background-color: #2e4e7e; }
-
-.bg-zanglan {
-  background-color: #3b2e7e; }
-
-.bg-dai {
-  background-color: #4a4266; }
-
-.bg-dailv {
-  background-color: #426666; }
-
-.bg-dailan {
-  background-color: #425066; }
-
-.bg-daizi {
-  background-color: #574266; }
-
-.bg-zise {
-  background-color: #8d4bbb; }
-
-.bg-zijiang {
-  background-color: #815463; }
-
-.bg-jiangzi_ {
-  background-color: #815476; }
-
-.bg-zitan {
-  background-color: #4c221b; }
-
-.bg-ganqing {
-  background-color: #003371; }
-
-.bg-zitang {
-  background-color: #56004f; }
-
-.bg-qinglian {
-  background-color: #801dae; }
-
-.bg-qunqing {
-  background-color: #4c8dae; }
-
-.bg-xueqing {
-  background-color: #b0a4e3; }
-
-.bg-dingxiangse {
-  background-color: #cca4e3; }
-
-.bg-ouse {
-  background-color: #edd1d8; }
-
-.bg-ouhese {
-  background-color: #e4c6d0; }
-
-.bg-cangse {
-  background-color: #75878a; }
+.bg-biyushi {
+  background-color: #569597; }
 
 .bg-canghuang {
-  background-color: #519a73; }
+  background-color: #c65306; }
 
-.bg-cangqing {
-  background-color: #a29b7c; }
+.bg-zanglan {
+  background-color: #25386b; }
 
-.bg-canghei {
-  background-color: #7397ab; }
+.bg-canglyu {
+  background-color: #4e5f45; }
 
-.bg-cangbai {
-  background-color: #d1d9e0; }
+.bg-caohuang {
+  background-color: #dbce54; }
 
-.bg-shuise {
-  background-color: #88ada6; }
+.bg-chengdehui {
+  background-color: #757570; }
 
-.bg-shuihong {
-  background-color: #f3d3e7; }
+.bg-chengdezao {
+  background-color: #5a5c5b; }
 
-.bg-shuilv {
-  background-color: #d4f2e7; }
+.bg-chensha {
+  background-color: #af5e53; }
 
-.bg-shuilan {
-  background-color: #d2f0f4; }
+.bg-chunlan {
+  background-color: #7ba1a8; }
 
-.bg-danqing {
-  background-color: #d3e0f3; }
+.bg-chunlyu {
+  background-color: #e3efd1; }
 
-.bg-hulan {
-  background-color: #30dff3; }
+.bg-cuilyu {
+  background-color: #006e5f; }
 
-.bg-hulv {
-  background-color: #25f8cb; }
+.bg-cujingzao {
+  background-color: #43454a; }
 
-.bg-jingbai {
-  background-color: #ffffff; }
+.bg-dachijin {
+  background-color: #6d7358; }
 
-.bg-xiangyabai {
-  background-color: #fffbf0; }
+.bg-dailan {
+  background-color: #304758; }
 
-.bg-xuebai {
-  background-color: #f0fcff; }
+.bg-dandongshi {
+  background-color: #d7c16b; }
 
-.bg-yuebai {
-  background-color: #d6ecf0; }
+.bg-danhuilyu {
+  background-color: #aec4b7; }
 
-.bg-gao {
-  background-color: #f2ecde; }
+.bg-dengcaohui {
+  background-color: #363532; }
 
-.bg-su {
-  background-color: #e0f0e9; }
+.bg-dianlan {
+  background-color: #1b54f2; }
 
-.bg-tubai {
-  background-color: #f3f9f1; }
+.bg-fanqiehong {
+  background-color: #c4473d; }
 
-.bg-shuangse {
-  background-color: #e9f1f6; }
+.bg-feihong {
+  background-color: #c35655; }
 
-.bg-huabai {
-  background-color: #c2ccd0; }
+.bg-gancaohuang {
+  background-color: #e4cf8e; }
 
-.bg-yudubai {
-  background-color: #fcefe8; }
+.bg-ganlanlyu {
+  background-color: #6a6834; }
 
-.bg-yingbai {
-  background-color: #e3f9fd; }
+.bg-ganshifen {
+  background-color: #eadcd6; }
 
-.bg-huise {
-  background-color: #808080; }
+.bg-gulan {
+  background-color: #6493af; }
 
-.bg-yase {
-  background-color: #eedeb0; }
+.bg-guohui {
+  background-color: #88aea3; }
 
-.bg-qianbai {
-  background-color: #f0f0f4; }
+.bg-hailan {
+  background-color: #17507d; }
 
-.bg-xuanse {
-  background-color: #622a1d; }
+.bg-hongzao {
+  background-color: #4f5355; }
 
-.bg-xuanqing {
-  background-color: #3d3b4f; }
-
-.bg-wuse {
-  background-color: #725e82; }
-
-.bg-wuhei {
-  background-color: #392f41; }
-
-.bg-qihei {
-  background-color: #161823; }
-
-.bg-mose {
-  background-color: #50616d; }
-
-.bg-mohui {
-  background-color: #758a99; }
-
-.bg-heise {
-  background-color: #000000; }
-
-.bg-zise_ {
-  background-color: #493131; }
-
-.bg-meihei {
-  background-color: #312520; }
-
-.bg-li {
-  background-color: #5d513c; }
-
-.bg-li_ {
-  background-color: #75664d; }
-
-.bg-you {
-  background-color: #6b6882; }
-
-.bg-youhei {
-  background-color: #665757; }
-
-.bg-an {
-  background-color: #41555d; }
-
-.bg-chijin {
-  background-color: #F2BE45; }
-
-.bg-jinse {
-  background-color: #eacd76; }
-
-.bg-yinbai {
-  background-color: #e9e7ef; }
-
-.bg-tonglv {
-  background-color: #549688; }
-
-.bg-wujin {
-  background-color: #a78e44; }
-
-.bg-laoyin {
-  background-color: #bacac6; }
-
-.bg-yinzhu {
-  background-color: #bf242a; }
-
-.bg-zhusha {
-  background-color: #ff461f; }
-
-.bg-zhubiao {
-  background-color: #f36838; }
-
-.bg-zheshi {
-  background-color: #845a33; }
-
-.bg-shilv {
-  background-color: #16a951; }
-
-.bg-baifen {
-  background-color: #fff2df; }
+.bg-huanghui {
+  background-color: #b0b7ac; }
 
 .bg-huaqing {
-  background-color: #003472; }
+  background-color: #546b83; }
+
+.bg-hufen {
+  background-color: #ebe8db; }
+
+.bg-huilan {
+  background-color: #5d828a; }
+
+.bg-huilyu {
+  background-color: #5c8987; }
+
+.bg-huimi {
+  background-color: #b6b196; }
+
+.bg-jianghuang {
+  background-color: #b49436; }
+
+.bg-jiangxiaoni {
+  background-color: #6d614a; }
+
+.bg-jiangzi {
+  background-color: #704d4e; }
+
+.bg-jiehong {
+  background-color: #e7693f; }
+
+.bg-jiehuang {
+  background-color: #e8853b; }
+
+.bg-jinhuang {
+  background-color: #c77a3a; }
+
+.bg-junlyu {
+  background-color: #cad4ba; }
+
+.bg-kongquelan {
+  background-color: #0041a5; }
+
+.bg-kujin {
+  background-color: #85794f; }
+
+.bg-kulyu {
+  background-color: #b7b278; }
+
+.bg-labai {
+  background-color: #e7e5d0; }
+
+.bg-laolyu {
+  background-color: #3d6e53; }
+
+.bg-liuhuahong {
+  background-color: #d54b44; }
+
+.bg-luhui {
+  background-color: #a9b08f; }
+
+.bg-meiguihong {
+  background-color: #973444; }
+
+.bg-meiguihui {
+  background-color: #793d56; }
+
+.bg-mihong {
+  background-color: #e1bda2; }
+
+.bg-mihui {
+  background-color: #c5bfad; }
+
+.bg-mise {
+  background-color: #f5f5dc; }
+
+.bg-nailyu {
+  background-color: #afc8ba; }
+
+.bg-naizong {
+  background-color: #c1a299; }
+
+.bg-ningmenghuang {
+  background-color: #e9db39; }
+
+.bg-pinhong {
+  background-color: #a71368; }
+
+.bg-qianhaichanglan {
+  background-color: #3c5e91; }
+
+.bg-qianhuangzong {
+  background-color: #dea87a; }
+
+.bg-qianjiehuang {
+  background-color: #da9558; }
+
+.bg-qianniuzi {
+  background-color: #a22076; }
+
+.bg-qianshiyingzi {
+  background-color: #ab96c5; }
+
+.bg-qiantengzi {
+  background-color: #c4c3cb; }
+
+.bg-qiantuose {
+  background-color: #c9ae8c; }
+
+.bg-qianxieya {
+  background-color: #eacdd1; }
+
+.bg-qianzonghui {
+  background-color: #e1dbcd; }
+
+.bg-kaqihuang {
+  background-color: #d5b884; }
+
+.bg-kaqilyu {
+  background-color: #647370; }
+
+.bg-qiepizi {
+  background-color: #674950; }
+
+.bg-quehui {
+  background-color: #455667; }
+
+.bg-ronglan {
+  background-color: #31678d; }
+
+.bg-sanlyu {
+  background-color: #90caaf; }
+
+.bg-shalyu {
+  background-color: #005b5a; }
+
+.bg-shaqing {
+  background-color: #2b5e7d; }
+
+.bg-shenyan {
+  background-color: #5a4c4c; }
+
+.bg-shenyanhong {
+  background-color: #643441; }
+
+.bg-shenzhuyue {
+  background-color: #2578b5; }
+
+.bg-shiyangjin {
+  background-color: #fcb1aa; }
+
+.bg-shuidiaohui {
+  background-color: #949c97; }
+
+.bg-shuihuang {
+  background-color: #bed2b6; }
 
 .bg-tenghuang {
-  background-color: #ffb61e; }
+  background-color: #f2de76; }
 
-.bg-cihuang {
-  background-color: #ffc64b; }
+.bg-tianqing {
+  background-color: #2ec3e7; }
+
+.bg-tiehui {
+  background-color: #37444b; }
+
+.bg-tuhuang {
+  background-color: #ce9335; }
+
+.bg-xiangsihui {
+  background-color: #625c52; }
+
+.bg-xiehong {
+  background-color: #a03e28; }
+
+.bg-xinghong {
+  background-color: #c43739; }
 
 .bg-xionghuang {
-  background-color: #e9bb1d; }
+  background-color: #d0853d; }
+
+.bg-xiongjing {
+  background-color: #e47542; }
+
+.bg-xiuhong {
+  background-color: #4d1919; }
+
+.bg-xiulyu {
+  background-color: #b8c8b7; }
+
+.bg-xuanjin {
+  background-color: #796f54; }
+
+.bg-xuese {
+  background-color: #fffafa; }
+
+.bg-xuezi {
+  background-color: #79485a; }
+
+.bg-yadanqing {
+  background-color: #d1e3db; }
+
+.bg-yangcongzi {
+  background-color: #9c6680; }
+
+.bg-yanghong {
+  background-color: #dc143c; }
+
+.bg-yanhong {
+  background-color: #cc3536; }
+
+.bg-yingwulyu {
+  background-color: #008e59; }
+
+.bg-yinzhu {
+  background-color: #dd3b44; }
+
+.bg-youlyu {
+  background-color: #45554a; }
+
+.bg-youyanmo {
+  background-color: #3f3f3c; }
+
+.bg-yuanqing {
+  background-color: #3e3c3d; }
+
+.bg-yanzhi {
+  background-color: #c03f3c; }
+
+.bg-yinbo {
+  background-color: #585a57; }
+
+.bg-yuejihong {
+  background-color: #bb1c33; }
+
+.bg-yushilan {
+  background-color: #507883; }
+
+.bg-zaohong {
+  background-color: #89303f; }
+
+.bg-zhangdan {
+  background-color: #eb652d; }
+
+.bg-zhenghui {
+  background-color: #93a2a9; }
+
+.bg-zhihuang {
+  background-color: #dbc7a6; }
+
+.bg-zhijinhui {
+  background-color: #748a8d; }
+
+.bg-zhizong {
+  background-color: #bca590; }
+
+.bg-zhongzonghui {
+  background-color: #a9987c; }
+
+.bg-zifen {
+  background-color: #a54358; }
+
+.bg-zishuijing {
+  background-color: #c3a6cb; }
+
+.bg-zitenghui {
+  background-color: #857e95; }
+
+.bg-ziweihua {
+  background-color: #eea5d1; }
+
+.bg-zongcha {
+  background-color: #b8844f; }
 
 /*# sourceMappingURL=zhcolor.css.map */

@@ -1,1176 +1,854 @@
-$fenhong:#ffb3a7;//粉红
-$feise:#ed5736;//妃色
-$pinhong:#f00056;//品红
-$taohong:#f47983;//桃红
-$haitanghong:#db5a6b;//海棠红
-$shiliuhong:#f20c00;//石榴红
-$yingtaose:#c93756;//樱桃色
-$yinhong:#f05654;//银红
-$dahong:#ff2121;//大红
-$jiangzi:#8c4356;//绛紫
-$feihong:#c83c23;//绯红
-$yanzhi:#9d2933;//胭脂
-$zhuhong:#ff4c00;//朱红
-$dan:#ff4e20;//丹
-$tong:#f35336;//彤
-$qianse:#cb3a56;//茜色
-$huohong:#ff2d51;//火红
-$hechi:#c91f37;//赫赤
-$yanhong:#ef7a82;//嫣红
-$yanghong:#ff0097;//洋红
-$yan:#ff3300;//炎
-$chi:#c3272b;//赤
-$wan:#a98175;//绾
-$zaohong:#c32136;//枣红
-$tan:#b36d61;//檀
-$yanhong_:#be002f;//殷红
-$tuohong:#dc3023;//酡红
-$tuoyan:#f9906f;//酡颜
-$ehuang:#fff143;//鹅黄
-$yahuang:#faff72;//鸭黄
-$yingcaose:#eaff56;//樱草色
-$xinghuang:#ffa631;//杏黄
-$xinghong:#ff8c31;//杏红
-$juhuang:#ff8936;//橘黄
-$chenghuang:#ffa400;//橙黄
-$juhong:#ff7500;//橘红
-$jianghuang:#ffc773;//姜黄
-$xiangse:#f0c239;//缃色
-$chengse:#fa8c35;//橙色
-$chase:#b35c44;//茶色
-$tuose:#a88462;//驼色
-$hunhuang:#c89b40;//昏黄
-$lise:#60281e;//栗色
-$zongse:#b25d25;//棕色
-$zonglv:#827100;//棕绿
-$zonghei:#7c4b00;//棕黑
-$zonghong:#9b4400;//棕红
-$zonghuang:#ae7000;//棕黄
-$zhese:#955539;//赭色
-$hupo:#ca6924;//琥珀
-$hese:#6e511e;//褐色
-$kuhuang:#d3b17d;//枯黄
-$huanglu:#e29c45;//黄栌
-$qiuse:#896c39;//秋色
-$qiuxiangse:#d9b611;//秋香色
-$nenlv:#bddd22;//嫩绿
-$liuhuang:#c9dd22;//柳黄
-$liulv:#afdd22;//柳绿
-$zhuqing:#789262;//竹青
-$conghuang:#a3d900;//葱黄
-$conglv:#9ed900;//葱绿
-$congqing:#0eb83a;//葱青
-$qingcong:#0aa344;//青葱
-$youlv:#00bc12;//油绿
-$lvchen:#0c8918;//绿沉
-$bise:#1bd1a5;//碧色
-$bilv:#2add9c;//碧绿
-$qingbi:#48c0a3;//青碧
-$feicuise:#3de1ad;//翡翠色
-$caolv:#40de5a;//草绿
-$qingse:#00e09e;//青色
-$qingcui:#00e079;//青翠
-$qingbai:#c0ebd7;//青白
-$yaluanqing:#e0eee8;//鸭卵青
-$xiekeqing:#bbcdc5;//蟹壳青
-$yaqing:#424c50;//鸦青
-$lvse:#00e500;//绿色
-$doulv:#9ed048;//豆绿
-$douqing:#96ce54;//豆青
-$shiqing:#7bcfa6;//石青
-$yuse:#7bcfa6;//玉色
-$piao:#7fecad;//缥
-$ailv:#a4e2c6;//艾绿
-$songbailv:#21a675;//松柏绿
-$songhualv:#057748;//松花绿
-$songhuase:#bce672;//松花色
-$lan:#44CEF6;//蓝
-$dianqing:#177cb0;//靛青
-$dianlan:#065279;//靛蓝
-$bilan:#3eede7;//碧蓝
-$weilan:#70f3ff;//蔚蓝
-$baolan:#4b5cc4;//宝蓝
-$lanhuise:#a1afc9;//蓝灰色
-$zangqing:#2e4e7e;//藏青
-$zanglan:#3b2e7e;//藏蓝
-$dai:#4a4266;//黛
-$dailv:#426666;//黛绿
-$dailan:#425066;//黛蓝
-$daizi:#574266;//黛紫
-$zise:#8d4bbb;//紫色
-$zijiang:#815463;//紫酱
-$jiangzi_:#815476;//酱紫
-$zitan:#4c221b;//紫檀
-$ganqing:#003371;//绀青
-$zitang:#56004f;//紫棠
-$qinglian:#801dae;//青莲
-$qunqing:#4c8dae;//群青
-$xueqing:#b0a4e3;//雪青
-$dingxiangse:#cca4e3;//丁香色
-$ouse:#edd1d8;//藕色
-$ouhese:#e4c6d0;//藕荷色
-$cangse:#75878a;//苍色
-$canghuang:#519a73;//苍黄
-$cangqing:#a29b7c;//苍青
-$canghei:#7397ab;//苍黑
-$cangbai:#d1d9e0;//苍白
-$shuise:#88ada6;//水色
-$shuihong:#f3d3e7;//水红
-$shuilv:#d4f2e7;//水绿
-$shuilan:#d2f0f4;//水蓝
-$danqing:#d3e0f3;//淡青
-$hulan:#30dff3;//湖蓝
-$hulv:#25f8cb;//湖绿
-$jingbai:#ffffff;//精白
-$xiangyabai:#fffbf0;//像牙白
-$xuebai:#f0fcff;//雪白
-$yuebai:#d6ecf0;//月白
-$gao:#f2ecde;//缟
-$su:#e0f0e9;//素
-$tubai:#f3f9f1;//荼白
-$shuangse:#e9f1f6;//霜色
-$huabai:#c2ccd0;//花白
-$yudubai:#fcefe8;//鱼肚白
-$yingbai:#e3f9fd;//莹白
-$huise:#808080;//灰色
-$yase:#eedeb0;//牙色
-$qianbai:#f0f0f4;//铅白
-$xuanse:#622a1d;//玄色
-$xuanqing:#3d3b4f;//玄青
-$wuse:#725e82;//乌色
-$wuhei:#392f41;//乌黑
-$qihei:#161823;//漆黑
-$mose:#50616d;//墨色
-$mohui:#758a99;//墨灰
-$heise:#000000;//黑色
-$zise_:#493131;//缁色
-$meihei:#312520;//煤黑
-$li:#5d513c;//黧
-$li_:#75664d;//黎
-$you:#6b6882;//黝
-$youhei:#665757;//黝黑
-$an:#41555d;//黯
-$chijin:#F2BE45;//赤金
-$jinse:#eacd76;//金色
-$yinbai:#e9e7ef;//银白
-$tonglv:#549688;//铜绿
-$wujin:#a78e44;//乌金
-$laoyin:#bacac6;//老银
-$yinzhu:#bf242a;//银朱
-$zhusha:#ff461f;//朱砂
-$zhubiao:#f36838;//朱膘
-$zheshi:#845a33;//赭石
-$shilv:#16a951;//石绿
-$baifen:#fff2df;//白粉
-$huaqing:#003472;//花青
-$tenghuang:#ffb61e;//藤黄
-$cihuang:#ffc64b;//雌黄
-$xionghuang:#e9bb1d;//雄黄
-.fenhong {
-	color: $fenhong;
-}
-.feise {
-	color: $feise;
-}
-.pinhong {
-	color: $pinhong;
-}
-.taohong {
-	color: $taohong;
-}
-.haitanghong {
-	color: $haitanghong;
-}
-.shiliuhong {
-	color: $shiliuhong;
-}
-.yingtaose {
-	color: $yingtaose;
-}
-.yinhong {
-	color: $yinhong;
-}
-.dahong {
-	color: $dahong;
-}
-.jiangzi {
-	color: $jiangzi;
-}
-.feihong {
-	color: $feihong;
-}
-.yanzhi {
-	color: $yanzhi;
-}
-.zhuhong {
-	color: $zhuhong;
-}
-.dan {
-	color: $dan;
-}
-.tong {
-	color: $tong;
-}
-.qianse {
-	color: $qianse;
-}
-.huohong {
-	color: $huohong;
-}
-.hechi {
-	color: $hechi;
-}
-.yanhong {
-	color: $yanhong;
-}
-.yanghong {
-	color: $yanghong;
-}
-.yan {
-	color: $yan;
-}
-.chi {
-	color: $chi;
-}
-.wan {
-	color: $wan;
-}
-.zaohong {
-	color: $zaohong;
-}
-.tan {
-	color: $tan;
-}
-.yanhong_ {
-	color: $yanhong_;
-}
-.tuohong {
-	color: $tuohong;
-}
-.tuoyan {
-	color: $tuoyan;
-}
-.ehuang {
-	color: $ehuang;
-}
-.yahuang {
-	color: $yahuang;
-}
-.yingcaose {
-	color: $yingcaose;
-}
-.xinghuang {
-	color: $xinghuang;
-}
-.xinghong {
-	color: $xinghong;
-}
-.juhuang {
-	color: $juhuang;
-}
-.chenghuang {
-	color: $chenghuang;
-}
-.juhong {
-	color: $juhong;
-}
-.jianghuang {
-	color: $jianghuang;
-}
-.xiangse {
-	color: $xiangse;
-}
-.chengse {
-	color: $chengse;
-}
-.chase {
-	color: $chase;
-}
-.tuose {
-	color: $tuose;
-}
-.hunhuang {
-	color: $hunhuang;
-}
-.lise {
-	color: $lise;
-}
-.zongse {
-	color: $zongse;
-}
-.zonglv {
-	color: $zonglv;
-}
-.zonghei {
-	color: $zonghei;
-}
-.zonghong {
-	color: $zonghong;
-}
-.zonghuang {
-	color: $zonghuang;
-}
-.zhese {
-	color: $zhese;
-}
-.hupo {
-	color: $hupo;
-}
-.hese {
-	color: $hese;
-}
-.kuhuang {
-	color: $kuhuang;
-}
-.huanglu {
-	color: $huanglu;
-}
-.qiuse {
-	color: $qiuse;
-}
-.qiuxiangse {
-	color: $qiuxiangse;
-}
-.nenlv {
-	color: $nenlv;
-}
-.liuhuang {
-	color: $liuhuang;
-}
-.liulv {
-	color: $liulv;
-}
-.zhuqing {
-	color: $zhuqing;
-}
-.conghuang {
-	color: $conghuang;
-}
-.conglv {
-	color: $conglv;
-}
-.congqing {
-	color: $congqing;
-}
-.qingcong {
-	color: $qingcong;
-}
-.youlv {
-	color: $youlv;
-}
-.lvchen {
-	color: $lvchen;
-}
-.bise {
-	color: $bise;
-}
-.bilv {
-	color: $bilv;
-}
-.qingbi {
-	color: $qingbi;
-}
-.feicuise {
-	color: $feicuise;
-}
-.caolv {
-	color: $caolv;
-}
-.qingse {
-	color: $qingse;
-}
-.qingcui {
-	color: $qingcui;
-}
-.qingbai {
-	color: $qingbai;
-}
-.yaluanqing {
-	color: $yaluanqing;
-}
-.xiekeqing {
-	color: $xiekeqing;
-}
-.yaqing {
-	color: $yaqing;
-}
-.lvse {
-	color: $lvse;
-}
-.doulv {
-	color: $doulv;
-}
-.douqing {
-	color: $douqing;
-}
-.shiqing {
-	color: $shiqing;
-}
-.yuse {
-	color: $yuse;
-}
-.piao {
-	color: $piao;
-}
-.ailv {
-	color: $ailv;
-}
-.songbailv {
-	color: $songbailv;
-}
-.songhualv {
-	color: $songhualv;
-}
-.songhuase {
-	color: $songhuase;
-}
-.lan {
-	color: $lan;
-}
-.dianqing {
-	color: $dianqing;
-}
-.dianlan {
-	color: $dianlan;
-}
-.bilan {
-	color: $bilan;
-}
-.weilan {
-	color: $weilan;
+$baicaoshuang:#303030;//百草霜
+$baifanghuilan:#4e1892;//柏坊灰蓝
+$baolan:#1f3696;//宝蓝
+$beijingmaolan:#276893;//北京毛蓝
+$biyushi:#569597;//碧玉石
+$canghuang:#c65306;//苍黄
+$zanglan:#25386b;//藏蓝
+$canglyu:#4e5f45;//苍绿
+$caohuang:#dbce54;//草黄
+$chengdehui:#757570;//承德灰
+$chengdezao:#5a5c5b;//承德皂
+$chensha:#af5e53;//辰砂
+$chunlan:#7ba1a8;//春蓝
+$chunlyu:#e3efd1;//春绿
+$cuilyu:#006e5f;//翠绿
+$cujingzao:#43454a;//粗晶皂
+$dachijin:#6d7358;//大赤金
+$dailan:#304758;//黛蓝
+$dandongshi:#d7c16b;//丹东石
+$danhuilyu:#aec4b7;//淡灰绿
+$dengcaohui:#363532;//灯草灰
+$dianlan:#1b54f2;//靛蓝
+$fanqiehong:#c4473d;//蕃茄红
+$feihong:#c35655;//妃红
+$gancaohuang:#e4cf8e;//甘草黄
+$ganlanlyu:#6a6834;//橄榄绿
+$ganshifen:#eadcd6;//甘石粉
+$gulan:#6493af;//钴蓝
+$guohui:#88aea3;//果灰
+$hailan:#17507d;//海蓝
+$hongzao:#4f5355;//红皂
+$huanghui:#b0b7ac;//黄灰
+$huaqing:#546b83;//花青
+$hufen:#ebe8db;//胡粉
+$huilan:#5d828a;//灰蓝
+$huilyu:#5c8987;//灰绿
+$huimi:#b6b196;//灰米
+$jianghuang:#b49436;//姜黄
+$jiangxiaoni:#6d614a;//将校呢
+$jiangzi:#704d4e;//绛紫
+$jiehong:#e7693f;//桔红
+$jiehuang:#e8853b;//桔黄
+$jinhuang:#c77a3a;//金黄
+$junlyu:#cad4ba;//军绿
+$kongquelan:#0041a5;//孔雀蓝
+$kujin:#85794f;//库金
+$kulyu:#b7b278;//枯绿
+$labai:#e7e5d0;//蜡白
+$laolyu:#3d6e53;//老绿
+$liuhuahong:#d54b44;//榴花红
+$luhui:#a9b08f;//芦灰
+$meiguihong:#973444;//玫瑰红
+$meiguihui:#793d56;//玫瑰灰
+$mihong:#e1bda2;//米红
+$mihui:#c5bfad;//米灰
+$mise:#f5f5dc;//米色
+$nailyu:#afc8ba;//奶绿
+$naizong:#c1a299;//奶棕
+$ningmenghuang:#e9db39;//柠檬黄
+$pinhong:#a71368;//品红
+$qianhaichanglan:#3c5e91;//浅海昌蓝
+$qianhuangzong:#dea87a;//浅黄棕
+$qianjiehuang:#da9558;//浅桔黄
+$qianniuzi:#a22076;//牵牛紫
+$qianshiyingzi:#ab96c5;//浅石英紫
+$qiantengzi:#c4c3cb;//浅藤紫
+$qiantuose:#c9ae8c;//浅驼色
+$qianxieya:#eacdd1;//浅血牙
+$qianzonghui:#e1dbcd;//浅棕灰
+$kaqihuang:#d5b884;//卡其黄
+$kaqilyu:#647370;//卡其绿
+$qiepizi:#674950;//茄皮紫
+$quehui:#455667;//鹊灰
+$ronglan:#31678d;//绒蓝
+$sanlyu:#90caaf;//三绿
+$shalyu:#005b5a;//沙绿
+$shaqing:#2b5e7d;//沙青
+$shenyan:#5a4c4c;//深烟
+$shenyanhong:#643441;//深烟红
+$shenzhuyue:#2578b5;//深竹月
+$shiyangjin:#fcb1aa;//十样锦
+$shuidiaohui:#949c97;//水貂灰
+$shuihuang:#bed2b6;//水黄
+$tenghuang:#f2de76;//藤黄
+$tianqing:#2ec3e7;//天青*
+$tiehui:#37444b;//铁灰
+$tuhuang:#ce9335;//土黄
+$xiangsihui:#625c52;//相思灰
+$xiehong:#a03e28;//血红
+$xinghong:#c43739;//猩红
+$xionghuang:#d0853d;//雄黄
+$xiongjing:#e47542;//雄精
+$xiuhong:#4d1919;//锈红
+$xiulyu:#b8c8b7;//锈绿
+$xuanjin:#796f54;//选金
+$xuese:#fffafa;//雪色
+$xuezi:#79485a;//雪紫
+$yadanqing:#d1e3db;//鸭蛋青
+$yangcongzi:#9c6680;//洋葱紫
+$yanghong:#dc143c;//洋红
+$yanhong:#cc3536;//艳红
+$yingwulyu:#008e59;//鹦鹉绿
+$yinzhu:#dd3b44;//银朱
+$youlyu:#45554a;//油绿
+$youyanmo:#3f3f3c;//油烟墨
+$yuanqing:#3e3c3d;//元青
+$yanzhi:#c03f3c;//胭脂
+$yinbo:#585a57;//银箔
+$yuejihong:#bb1c33;//月季红
+$yushilan:#507883;//玉石蓝
+$zaohong:#89303f;//枣红
+$zhangdan:#eb652d;//章丹
+$zhenghui:#93a2a9;//正灰
+$zhihuang:#dbc7a6;//枝黄
+$zhijinhui:#748a8d;//织锦灰
+$zhizong:#bca590;//纸棕
+$zhongzonghui:#a9987c;//中棕灰
+$zifen:#a54358;//紫粉
+$zishuijing:#c3a6cb;//紫水晶
+$zitenghui:#857e95;//紫藤灰
+$ziweihua:#eea5d1;//紫薇花
+$zongcha:#b8844f;//棕茶
+.baicaoshuang {
+	color: $baicaoshuang;
+}
+.baifanghuilan {
+	color: $baifanghuilan;
 }
 .baolan {
 	color: $baolan;
 }
-.lanhuise {
-	color: $lanhuise;
+.beijingmaolan {
+	color: $beijingmaolan;
 }
-.zangqing {
-	color: $zangqing;
-}
-.zanglan {
-	color: $zanglan;
-}
-.dai {
-	color: $dai;
-}
-.dailv {
-	color: $dailv;
-}
-.dailan {
-	color: $dailan;
-}
-.daizi {
-	color: $daizi;
-}
-.zise {
-	color: $zise;
-}
-.zijiang {
-	color: $zijiang;
-}
-.jiangzi_ {
-	color: $jiangzi_;
-}
-.zitan {
-	color: $zitan;
-}
-.ganqing {
-	color: $ganqing;
-}
-.zitang {
-	color: $zitang;
-}
-.qinglian {
-	color: $qinglian;
-}
-.qunqing {
-	color: $qunqing;
-}
-.xueqing {
-	color: $xueqing;
-}
-.dingxiangse {
-	color: $dingxiangse;
-}
-.ouse {
-	color: $ouse;
-}
-.ouhese {
-	color: $ouhese;
-}
-.cangse {
-	color: $cangse;
+.biyushi {
+	color: $biyushi;
 }
 .canghuang {
 	color: $canghuang;
 }
-.cangqing {
-	color: $cangqing;
+.zanglan {
+	color: $zanglan;
 }
-.canghei {
-	color: $canghei;
+.canglyu {
+	color: $canglyu;
 }
-.cangbai {
-	color: $cangbai;
+.caohuang {
+	color: $caohuang;
 }
-.shuise {
-	color: $shuise;
+.chengdehui {
+	color: $chengdehui;
 }
-.shuihong {
-	color: $shuihong;
+.chengdezao {
+	color: $chengdezao;
 }
-.shuilv {
-	color: $shuilv;
+.chensha {
+	color: $chensha;
 }
-.shuilan {
-	color: $shuilan;
+.chunlan {
+	color: $chunlan;
 }
-.danqing {
-	color: $danqing;
+.chunlyu {
+	color: $chunlyu;
 }
-.hulan {
-	color: $hulan;
+.cuilyu {
+	color: $cuilyu;
 }
-.hulv {
-	color: $hulv;
+.cujingzao {
+	color: $cujingzao;
 }
-.jingbai {
-	color: $jingbai;
+.dachijin {
+	color: $dachijin;
 }
-.xiangyabai {
-	color: $xiangyabai;
+.dailan {
+	color: $dailan;
 }
-.xuebai {
-	color: $xuebai;
+.dandongshi {
+	color: $dandongshi;
 }
-.yuebai {
-	color: $yuebai;
+.danhuilyu {
+	color: $danhuilyu;
 }
-.gao {
-	color: $gao;
+.dengcaohui {
+	color: $dengcaohui;
 }
-.su {
-	color: $su;
+.dianlan {
+	color: $dianlan;
 }
-.tubai {
-	color: $tubai;
+.fanqiehong {
+	color: $fanqiehong;
 }
-.shuangse {
-	color: $shuangse;
+.feihong {
+	color: $feihong;
 }
-.huabai {
-	color: $huabai;
+.gancaohuang {
+	color: $gancaohuang;
 }
-.yudubai {
-	color: $yudubai;
+.ganlanlyu {
+	color: $ganlanlyu;
 }
-.yingbai {
-	color: $yingbai;
+.ganshifen {
+	color: $ganshifen;
 }
-.huise {
-	color: $huise;
+.gulan {
+	color: $gulan;
 }
-.yase {
-	color: $yase;
+.guohui {
+	color: $guohui;
 }
-.qianbai {
-	color: $qianbai;
+.hailan {
+	color: $hailan;
 }
-.xuanse {
-	color: $xuanse;
+.hongzao {
+	color: $hongzao;
 }
-.xuanqing {
-	color: $xuanqing;
-}
-.wuse {
-	color: $wuse;
-}
-.wuhei {
-	color: $wuhei;
-}
-.qihei {
-	color: $qihei;
-}
-.mose {
-	color: $mose;
-}
-.mohui {
-	color: $mohui;
-}
-.heise {
-	color: $heise;
-}
-.zise_ {
-	color: $zise_;
-}
-.meihei {
-	color: $meihei;
-}
-.li {
-	color: $li;
-}
-.li_ {
-	color: $li_;
-}
-.you {
-	color: $you;
-}
-.youhei {
-	color: $youhei;
-}
-.an {
-	color: $an;
-}
-.chijin {
-	color: $chijin;
-}
-.jinse {
-	color: $jinse;
-}
-.yinbai {
-	color: $yinbai;
-}
-.tonglv {
-	color: $tonglv;
-}
-.wujin {
-	color: $wujin;
-}
-.laoyin {
-	color: $laoyin;
-}
-.yinzhu {
-	color: $yinzhu;
-}
-.zhusha {
-	color: $zhusha;
-}
-.zhubiao {
-	color: $zhubiao;
-}
-.zheshi {
-	color: $zheshi;
-}
-.shilv {
-	color: $shilv;
-}
-.baifen {
-	color: $baifen;
+.huanghui {
+	color: $huanghui;
 }
 .huaqing {
 	color: $huaqing;
 }
+.hufen {
+	color: $hufen;
+}
+.huilan {
+	color: $huilan;
+}
+.huilyu {
+	color: $huilyu;
+}
+.huimi {
+	color: $huimi;
+}
+.jianghuang {
+	color: $jianghuang;
+}
+.jiangxiaoni {
+	color: $jiangxiaoni;
+}
+.jiangzi {
+	color: $jiangzi;
+}
+.jiehong {
+	color: $jiehong;
+}
+.jiehuang {
+	color: $jiehuang;
+}
+.jinhuang {
+	color: $jinhuang;
+}
+.junlyu {
+	color: $junlyu;
+}
+.kongquelan {
+	color: $kongquelan;
+}
+.kujin {
+	color: $kujin;
+}
+.kulyu {
+	color: $kulyu;
+}
+.labai {
+	color: $labai;
+}
+.laolyu {
+	color: $laolyu;
+}
+.liuhuahong {
+	color: $liuhuahong;
+}
+.luhui {
+	color: $luhui;
+}
+.meiguihong {
+	color: $meiguihong;
+}
+.meiguihui {
+	color: $meiguihui;
+}
+.mihong {
+	color: $mihong;
+}
+.mihui {
+	color: $mihui;
+}
+.mise {
+	color: $mise;
+}
+.nailyu {
+	color: $nailyu;
+}
+.naizong {
+	color: $naizong;
+}
+.ningmenghuang {
+	color: $ningmenghuang;
+}
+.pinhong {
+	color: $pinhong;
+}
+.qianhaichanglan {
+	color: $qianhaichanglan;
+}
+.qianhuangzong {
+	color: $qianhuangzong;
+}
+.qianjiehuang {
+	color: $qianjiehuang;
+}
+.qianniuzi {
+	color: $qianniuzi;
+}
+.qianshiyingzi {
+	color: $qianshiyingzi;
+}
+.qiantengzi {
+	color: $qiantengzi;
+}
+.qiantuose {
+	color: $qiantuose;
+}
+.qianxieya {
+	color: $qianxieya;
+}
+.qianzonghui {
+	color: $qianzonghui;
+}
+.kaqihuang {
+	color: $kaqihuang;
+}
+.kaqilyu {
+	color: $kaqilyu;
+}
+.qiepizi {
+	color: $qiepizi;
+}
+.quehui {
+	color: $quehui;
+}
+.ronglan {
+	color: $ronglan;
+}
+.sanlyu {
+	color: $sanlyu;
+}
+.shalyu {
+	color: $shalyu;
+}
+.shaqing {
+	color: $shaqing;
+}
+.shenyan {
+	color: $shenyan;
+}
+.shenyanhong {
+	color: $shenyanhong;
+}
+.shenzhuyue {
+	color: $shenzhuyue;
+}
+.shiyangjin {
+	color: $shiyangjin;
+}
+.shuidiaohui {
+	color: $shuidiaohui;
+}
+.shuihuang {
+	color: $shuihuang;
+}
 .tenghuang {
 	color: $tenghuang;
 }
-.cihuang {
-	color: $cihuang;
+.tianqing {
+	color: $tianqing;
+}
+.tiehui {
+	color: $tiehui;
+}
+.tuhuang {
+	color: $tuhuang;
+}
+.xiangsihui {
+	color: $xiangsihui;
+}
+.xiehong {
+	color: $xiehong;
+}
+.xinghong {
+	color: $xinghong;
 }
 .xionghuang {
 	color: $xionghuang;
 }
-.bg-fenhong {
-	background-color: $fenhong;
+.xiongjing {
+	color: $xiongjing;
 }
-.bg-feise {
-	background-color: $feise;
+.xiuhong {
+	color: $xiuhong;
 }
-.bg-pinhong {
-	background-color: $pinhong;
+.xiulyu {
+	color: $xiulyu;
 }
-.bg-taohong {
-	background-color: $taohong;
+.xuanjin {
+	color: $xuanjin;
 }
-.bg-haitanghong {
-	background-color: $haitanghong;
+.xuese {
+	color: $xuese;
 }
-.bg-shiliuhong {
-	background-color: $shiliuhong;
+.xuezi {
+	color: $xuezi;
 }
-.bg-yingtaose {
-	background-color: $yingtaose;
+.yadanqing {
+	color: $yadanqing;
 }
-.bg-yinhong {
-	background-color: $yinhong;
+.yangcongzi {
+	color: $yangcongzi;
 }
-.bg-dahong {
-	background-color: $dahong;
+.yanghong {
+	color: $yanghong;
 }
-.bg-jiangzi {
-	background-color: $jiangzi;
+.yanhong {
+	color: $yanhong;
 }
-.bg-feihong {
-	background-color: $feihong;
+.yingwulyu {
+	color: $yingwulyu;
 }
-.bg-yanzhi {
-	background-color: $yanzhi;
+.yinzhu {
+	color: $yinzhu;
 }
-.bg-zhuhong {
-	background-color: $zhuhong;
+.youlyu {
+	color: $youlyu;
 }
-.bg-dan {
-	background-color: $dan;
+.youyanmo {
+	color: $youyanmo;
 }
-.bg-tong {
-	background-color: $tong;
+.yuanqing {
+	color: $yuanqing;
 }
-.bg-qianse {
-	background-color: $qianse;
+.yanzhi {
+	color: $yanzhi;
 }
-.bg-huohong {
-	background-color: $huohong;
+.yinbo {
+	color: $yinbo;
 }
-.bg-hechi {
-	background-color: $hechi;
+.yuejihong {
+	color: $yuejihong;
 }
-.bg-yanhong {
-	background-color: $yanhong;
+.yushilan {
+	color: $yushilan;
 }
-.bg-yanghong {
-	background-color: $yanghong;
+.zaohong {
+	color: $zaohong;
 }
-.bg-yan {
-	background-color: $yan;
+.zhangdan {
+	color: $zhangdan;
 }
-.bg-chi {
-	background-color: $chi;
+.zhenghui {
+	color: $zhenghui;
 }
-.bg-wan {
-	background-color: $wan;
+.zhihuang {
+	color: $zhihuang;
 }
-.bg-zaohong {
-	background-color: $zaohong;
+.zhijinhui {
+	color: $zhijinhui;
 }
-.bg-tan {
-	background-color: $tan;
+.zhizong {
+	color: $zhizong;
 }
-.bg-yanhong_ {
-	background-color: $yanhong_;
+.zhongzonghui {
+	color: $zhongzonghui;
 }
-.bg-tuohong {
-	background-color: $tuohong;
+.zifen {
+	color: $zifen;
 }
-.bg-tuoyan {
-	background-color: $tuoyan;
+.zishuijing {
+	color: $zishuijing;
 }
-.bg-ehuang {
-	background-color: $ehuang;
+.zitenghui {
+	color: $zitenghui;
 }
-.bg-yahuang {
-	background-color: $yahuang;
+.ziweihua {
+	color: $ziweihua;
 }
-.bg-yingcaose {
-	background-color: $yingcaose;
+.zongcha {
+	color: $zongcha;
 }
-.bg-xinghuang {
-	background-color: $xinghuang;
+.bg-baicaoshuang {
+	background-color: $baicaoshuang;
 }
-.bg-xinghong {
-	background-color: $xinghong;
-}
-.bg-juhuang {
-	background-color: $juhuang;
-}
-.bg-chenghuang {
-	background-color: $chenghuang;
-}
-.bg-juhong {
-	background-color: $juhong;
-}
-.bg-jianghuang {
-	background-color: $jianghuang;
-}
-.bg-xiangse {
-	background-color: $xiangse;
-}
-.bg-chengse {
-	background-color: $chengse;
-}
-.bg-chase {
-	background-color: $chase;
-}
-.bg-tuose {
-	background-color: $tuose;
-}
-.bg-hunhuang {
-	background-color: $hunhuang;
-}
-.bg-lise {
-	background-color: $lise;
-}
-.bg-zongse {
-	background-color: $zongse;
-}
-.bg-zonglv {
-	background-color: $zonglv;
-}
-.bg-zonghei {
-	background-color: $zonghei;
-}
-.bg-zonghong {
-	background-color: $zonghong;
-}
-.bg-zonghuang {
-	background-color: $zonghuang;
-}
-.bg-zhese {
-	background-color: $zhese;
-}
-.bg-hupo {
-	background-color: $hupo;
-}
-.bg-hese {
-	background-color: $hese;
-}
-.bg-kuhuang {
-	background-color: $kuhuang;
-}
-.bg-huanglu {
-	background-color: $huanglu;
-}
-.bg-qiuse {
-	background-color: $qiuse;
-}
-.bg-qiuxiangse {
-	background-color: $qiuxiangse;
-}
-.bg-nenlv {
-	background-color: $nenlv;
-}
-.bg-liuhuang {
-	background-color: $liuhuang;
-}
-.bg-liulv {
-	background-color: $liulv;
-}
-.bg-zhuqing {
-	background-color: $zhuqing;
-}
-.bg-conghuang {
-	background-color: $conghuang;
-}
-.bg-conglv {
-	background-color: $conglv;
-}
-.bg-congqing {
-	background-color: $congqing;
-}
-.bg-qingcong {
-	background-color: $qingcong;
-}
-.bg-youlv {
-	background-color: $youlv;
-}
-.bg-lvchen {
-	background-color: $lvchen;
-}
-.bg-bise {
-	background-color: $bise;
-}
-.bg-bilv {
-	background-color: $bilv;
-}
-.bg-qingbi {
-	background-color: $qingbi;
-}
-.bg-feicuise {
-	background-color: $feicuise;
-}
-.bg-caolv {
-	background-color: $caolv;
-}
-.bg-qingse {
-	background-color: $qingse;
-}
-.bg-qingcui {
-	background-color: $qingcui;
-}
-.bg-qingbai {
-	background-color: $qingbai;
-}
-.bg-yaluanqing {
-	background-color: $yaluanqing;
-}
-.bg-xiekeqing {
-	background-color: $xiekeqing;
-}
-.bg-yaqing {
-	background-color: $yaqing;
-}
-.bg-lvse {
-	background-color: $lvse;
-}
-.bg-doulv {
-	background-color: $doulv;
-}
-.bg-douqing {
-	background-color: $douqing;
-}
-.bg-shiqing {
-	background-color: $shiqing;
-}
-.bg-yuse {
-	background-color: $yuse;
-}
-.bg-piao {
-	background-color: $piao;
-}
-.bg-ailv {
-	background-color: $ailv;
-}
-.bg-songbailv {
-	background-color: $songbailv;
-}
-.bg-songhualv {
-	background-color: $songhualv;
-}
-.bg-songhuase {
-	background-color: $songhuase;
-}
-.bg-lan {
-	background-color: $lan;
-}
-.bg-dianqing {
-	background-color: $dianqing;
-}
-.bg-dianlan {
-	background-color: $dianlan;
-}
-.bg-bilan {
-	background-color: $bilan;
-}
-.bg-weilan {
-	background-color: $weilan;
+.bg-baifanghuilan {
+	background-color: $baifanghuilan;
 }
 .bg-baolan {
 	background-color: $baolan;
 }
-.bg-lanhuise {
-	background-color: $lanhuise;
+.bg-beijingmaolan {
+	background-color: $beijingmaolan;
 }
-.bg-zangqing {
-	background-color: $zangqing;
-}
-.bg-zanglan {
-	background-color: $zanglan;
-}
-.bg-dai {
-	background-color: $dai;
-}
-.bg-dailv {
-	background-color: $dailv;
-}
-.bg-dailan {
-	background-color: $dailan;
-}
-.bg-daizi {
-	background-color: $daizi;
-}
-.bg-zise {
-	background-color: $zise;
-}
-.bg-zijiang {
-	background-color: $zijiang;
-}
-.bg-jiangzi_ {
-	background-color: $jiangzi_;
-}
-.bg-zitan {
-	background-color: $zitan;
-}
-.bg-ganqing {
-	background-color: $ganqing;
-}
-.bg-zitang {
-	background-color: $zitang;
-}
-.bg-qinglian {
-	background-color: $qinglian;
-}
-.bg-qunqing {
-	background-color: $qunqing;
-}
-.bg-xueqing {
-	background-color: $xueqing;
-}
-.bg-dingxiangse {
-	background-color: $dingxiangse;
-}
-.bg-ouse {
-	background-color: $ouse;
-}
-.bg-ouhese {
-	background-color: $ouhese;
-}
-.bg-cangse {
-	background-color: $cangse;
+.bg-biyushi {
+	background-color: $biyushi;
 }
 .bg-canghuang {
 	background-color: $canghuang;
 }
-.bg-cangqing {
-	background-color: $cangqing;
+.bg-zanglan {
+	background-color: $zanglan;
 }
-.bg-canghei {
-	background-color: $canghei;
+.bg-canglyu {
+	background-color: $canglyu;
 }
-.bg-cangbai {
-	background-color: $cangbai;
+.bg-caohuang {
+	background-color: $caohuang;
 }
-.bg-shuise {
-	background-color: $shuise;
+.bg-chengdehui {
+	background-color: $chengdehui;
 }
-.bg-shuihong {
-	background-color: $shuihong;
+.bg-chengdezao {
+	background-color: $chengdezao;
 }
-.bg-shuilv {
-	background-color: $shuilv;
+.bg-chensha {
+	background-color: $chensha;
 }
-.bg-shuilan {
-	background-color: $shuilan;
+.bg-chunlan {
+	background-color: $chunlan;
 }
-.bg-danqing {
-	background-color: $danqing;
+.bg-chunlyu {
+	background-color: $chunlyu;
 }
-.bg-hulan {
-	background-color: $hulan;
+.bg-cuilyu {
+	background-color: $cuilyu;
 }
-.bg-hulv {
-	background-color: $hulv;
+.bg-cujingzao {
+	background-color: $cujingzao;
 }
-.bg-jingbai {
-	background-color: $jingbai;
+.bg-dachijin {
+	background-color: $dachijin;
 }
-.bg-xiangyabai {
-	background-color: $xiangyabai;
+.bg-dailan {
+	background-color: $dailan;
 }
-.bg-xuebai {
-	background-color: $xuebai;
+.bg-dandongshi {
+	background-color: $dandongshi;
 }
-.bg-yuebai {
-	background-color: $yuebai;
+.bg-danhuilyu {
+	background-color: $danhuilyu;
 }
-.bg-gao {
-	background-color: $gao;
+.bg-dengcaohui {
+	background-color: $dengcaohui;
 }
-.bg-su {
-	background-color: $su;
+.bg-dianlan {
+	background-color: $dianlan;
 }
-.bg-tubai {
-	background-color: $tubai;
+.bg-fanqiehong {
+	background-color: $fanqiehong;
 }
-.bg-shuangse {
-	background-color: $shuangse;
+.bg-feihong {
+	background-color: $feihong;
 }
-.bg-huabai {
-	background-color: $huabai;
+.bg-gancaohuang {
+	background-color: $gancaohuang;
 }
-.bg-yudubai {
-	background-color: $yudubai;
+.bg-ganlanlyu {
+	background-color: $ganlanlyu;
 }
-.bg-yingbai {
-	background-color: $yingbai;
+.bg-ganshifen {
+	background-color: $ganshifen;
 }
-.bg-huise {
-	background-color: $huise;
+.bg-gulan {
+	background-color: $gulan;
 }
-.bg-yase {
-	background-color: $yase;
+.bg-guohui {
+	background-color: $guohui;
 }
-.bg-qianbai {
-	background-color: $qianbai;
+.bg-hailan {
+	background-color: $hailan;
 }
-.bg-xuanse {
-	background-color: $xuanse;
+.bg-hongzao {
+	background-color: $hongzao;
 }
-.bg-xuanqing {
-	background-color: $xuanqing;
-}
-.bg-wuse {
-	background-color: $wuse;
-}
-.bg-wuhei {
-	background-color: $wuhei;
-}
-.bg-qihei {
-	background-color: $qihei;
-}
-.bg-mose {
-	background-color: $mose;
-}
-.bg-mohui {
-	background-color: $mohui;
-}
-.bg-heise {
-	background-color: $heise;
-}
-.bg-zise_ {
-	background-color: $zise_;
-}
-.bg-meihei {
-	background-color: $meihei;
-}
-.bg-li {
-	background-color: $li;
-}
-.bg-li_ {
-	background-color: $li_;
-}
-.bg-you {
-	background-color: $you;
-}
-.bg-youhei {
-	background-color: $youhei;
-}
-.bg-an {
-	background-color: $an;
-}
-.bg-chijin {
-	background-color: $chijin;
-}
-.bg-jinse {
-	background-color: $jinse;
-}
-.bg-yinbai {
-	background-color: $yinbai;
-}
-.bg-tonglv {
-	background-color: $tonglv;
-}
-.bg-wujin {
-	background-color: $wujin;
-}
-.bg-laoyin {
-	background-color: $laoyin;
-}
-.bg-yinzhu {
-	background-color: $yinzhu;
-}
-.bg-zhusha {
-	background-color: $zhusha;
-}
-.bg-zhubiao {
-	background-color: $zhubiao;
-}
-.bg-zheshi {
-	background-color: $zheshi;
-}
-.bg-shilv {
-	background-color: $shilv;
-}
-.bg-baifen {
-	background-color: $baifen;
+.bg-huanghui {
+	background-color: $huanghui;
 }
 .bg-huaqing {
 	background-color: $huaqing;
 }
+.bg-hufen {
+	background-color: $hufen;
+}
+.bg-huilan {
+	background-color: $huilan;
+}
+.bg-huilyu {
+	background-color: $huilyu;
+}
+.bg-huimi {
+	background-color: $huimi;
+}
+.bg-jianghuang {
+	background-color: $jianghuang;
+}
+.bg-jiangxiaoni {
+	background-color: $jiangxiaoni;
+}
+.bg-jiangzi {
+	background-color: $jiangzi;
+}
+.bg-jiehong {
+	background-color: $jiehong;
+}
+.bg-jiehuang {
+	background-color: $jiehuang;
+}
+.bg-jinhuang {
+	background-color: $jinhuang;
+}
+.bg-junlyu {
+	background-color: $junlyu;
+}
+.bg-kongquelan {
+	background-color: $kongquelan;
+}
+.bg-kujin {
+	background-color: $kujin;
+}
+.bg-kulyu {
+	background-color: $kulyu;
+}
+.bg-labai {
+	background-color: $labai;
+}
+.bg-laolyu {
+	background-color: $laolyu;
+}
+.bg-liuhuahong {
+	background-color: $liuhuahong;
+}
+.bg-luhui {
+	background-color: $luhui;
+}
+.bg-meiguihong {
+	background-color: $meiguihong;
+}
+.bg-meiguihui {
+	background-color: $meiguihui;
+}
+.bg-mihong {
+	background-color: $mihong;
+}
+.bg-mihui {
+	background-color: $mihui;
+}
+.bg-mise {
+	background-color: $mise;
+}
+.bg-nailyu {
+	background-color: $nailyu;
+}
+.bg-naizong {
+	background-color: $naizong;
+}
+.bg-ningmenghuang {
+	background-color: $ningmenghuang;
+}
+.bg-pinhong {
+	background-color: $pinhong;
+}
+.bg-qianhaichanglan {
+	background-color: $qianhaichanglan;
+}
+.bg-qianhuangzong {
+	background-color: $qianhuangzong;
+}
+.bg-qianjiehuang {
+	background-color: $qianjiehuang;
+}
+.bg-qianniuzi {
+	background-color: $qianniuzi;
+}
+.bg-qianshiyingzi {
+	background-color: $qianshiyingzi;
+}
+.bg-qiantengzi {
+	background-color: $qiantengzi;
+}
+.bg-qiantuose {
+	background-color: $qiantuose;
+}
+.bg-qianxieya {
+	background-color: $qianxieya;
+}
+.bg-qianzonghui {
+	background-color: $qianzonghui;
+}
+.bg-kaqihuang {
+	background-color: $kaqihuang;
+}
+.bg-kaqilyu {
+	background-color: $kaqilyu;
+}
+.bg-qiepizi {
+	background-color: $qiepizi;
+}
+.bg-quehui {
+	background-color: $quehui;
+}
+.bg-ronglan {
+	background-color: $ronglan;
+}
+.bg-sanlyu {
+	background-color: $sanlyu;
+}
+.bg-shalyu {
+	background-color: $shalyu;
+}
+.bg-shaqing {
+	background-color: $shaqing;
+}
+.bg-shenyan {
+	background-color: $shenyan;
+}
+.bg-shenyanhong {
+	background-color: $shenyanhong;
+}
+.bg-shenzhuyue {
+	background-color: $shenzhuyue;
+}
+.bg-shiyangjin {
+	background-color: $shiyangjin;
+}
+.bg-shuidiaohui {
+	background-color: $shuidiaohui;
+}
+.bg-shuihuang {
+	background-color: $shuihuang;
+}
 .bg-tenghuang {
 	background-color: $tenghuang;
 }
-.bg-cihuang {
-	background-color: $cihuang;
+.bg-tianqing {
+	background-color: $tianqing;
+}
+.bg-tiehui {
+	background-color: $tiehui;
+}
+.bg-tuhuang {
+	background-color: $tuhuang;
+}
+.bg-xiangsihui {
+	background-color: $xiangsihui;
+}
+.bg-xiehong {
+	background-color: $xiehong;
+}
+.bg-xinghong {
+	background-color: $xinghong;
 }
 .bg-xionghuang {
 	background-color: $xionghuang;
+}
+.bg-xiongjing {
+	background-color: $xiongjing;
+}
+.bg-xiuhong {
+	background-color: $xiuhong;
+}
+.bg-xiulyu {
+	background-color: $xiulyu;
+}
+.bg-xuanjin {
+	background-color: $xuanjin;
+}
+.bg-xuese {
+	background-color: $xuese;
+}
+.bg-xuezi {
+	background-color: $xuezi;
+}
+.bg-yadanqing {
+	background-color: $yadanqing;
+}
+.bg-yangcongzi {
+	background-color: $yangcongzi;
+}
+.bg-yanghong {
+	background-color: $yanghong;
+}
+.bg-yanhong {
+	background-color: $yanhong;
+}
+.bg-yingwulyu {
+	background-color: $yingwulyu;
+}
+.bg-yinzhu {
+	background-color: $yinzhu;
+}
+.bg-youlyu {
+	background-color: $youlyu;
+}
+.bg-youyanmo {
+	background-color: $youyanmo;
+}
+.bg-yuanqing {
+	background-color: $yuanqing;
+}
+.bg-yanzhi {
+	background-color: $yanzhi;
+}
+.bg-yinbo {
+	background-color: $yinbo;
+}
+.bg-yuejihong {
+	background-color: $yuejihong;
+}
+.bg-yushilan {
+	background-color: $yushilan;
+}
+.bg-zaohong {
+	background-color: $zaohong;
+}
+.bg-zhangdan {
+	background-color: $zhangdan;
+}
+.bg-zhenghui {
+	background-color: $zhenghui;
+}
+.bg-zhihuang {
+	background-color: $zhihuang;
+}
+.bg-zhijinhui {
+	background-color: $zhijinhui;
+}
+.bg-zhizong {
+	background-color: $zhizong;
+}
+.bg-zhongzonghui {
+	background-color: $zhongzonghui;
+}
+.bg-zifen {
+	background-color: $zifen;
+}
+.bg-zishuijing {
+	background-color: $zishuijing;
+}
+.bg-zitenghui {
+	background-color: $zitenghui;
+}
+.bg-ziweihua {
+	background-color: $ziweihua;
+}
+.bg-zongcha {
+	background-color: $zongcha;
 }
